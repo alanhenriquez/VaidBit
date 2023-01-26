@@ -1,0 +1,2900 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-size: 1.15vw;
+    font-weight: 500;
+    font-family: Roboto10,sans-serif;
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-size: 1.15vw;
+    font-weight: 500;
+    font-family: Roboto10,sans-serif;
+}
+
+
+
+
+body{
+    width: 100%;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    display: inline-block;
+    background: #f7f7f7;
+}
+
+body.night{
+    background:#262626; 
+}
+
+
+
+
+
+header{
+    width: 100%;
+    height: 7.5vh;
+    top: 0;
+    left: 0;
+    float: left;
+    position: fixed;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.989);
+    z-index: 10000;
+}
+
+body.night header{
+    background:rgb(56, 56, 56); 
+}
+
+header .header {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    float: left;
+    overflow: hidden;
+	position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0);
+    z-index: 10000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header .contenedor-icono-y-el-menu{
+    width: 5%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background: rgba(39, 156, 255, 0);
+}
+
+header .contenedor-icono-y-el-menu input{
+    display: none;
+    float: left;
+}
+
+header .contenedor-icono-y-el-menu .icon-menu-1{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(199, 199, 199, 0);
+    color: rgb(101, 101, 101);
+    cursor: pointer;
+    font-size: 2.3vw;
+    padding-top: 5%;
+}
+
+body.night header .contenedor-icono-y-el-menu .icon-menu-1, body.p-teatro-video header .contenedor-icono-y-el-menu .icon-menu-1, body.p-cine-video header .contenedor-icono-y-el-menu .icon-menu-1{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+.container-menu{
+    width: 20%;
+    height: 86.5%;
+	top: 7.5%;
+    left: 0px;
+    float: left;
+    z-index: 10000000;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    overflow: hidden;
+    transition: 0.2s;
+    transform: translateX(-100%);
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0); 
+    border-top: 1px solid rgba(111, 111, 111, 0.2);
+}
+
+.toggle-check:checked ~ .container-menu{
+    transform: translateX(0px);
+    
+}
+
+.toggle-check:checked ~ .container-menu-cerrar{
+    display: inline-block;
+}
+
+body.night .container-menu, body.p-teatro-video .container-menu, body.p-cine-video .container-menu{
+    background: #333333;
+    
+}
+
+
+
+
+
+
+
+
+.container-menu .menu{
+    width: 100%;
+    height: 100%;
+	top: 0;
+	left: 0;
+	float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+body.night .menu, body.p-teatro-video .menu, body.p-cine-video .menu{
+    background: rgba(116, 116, 116, 0);
+}
+
+
+
+
+
+.menu-logo{
+    width: 100%;
+    height: 12%;
+    top: 0;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(116, 116, 116, 0);
+    margin-bottom: 0px;
+}
+
+.menu-logo .menu-logo-imagen{
+    width: 0px;
+    height: 0px;
+    left: 50%;
+    top: 50%;
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(247, 247, 247, 0);
+    border-radius: 50%;
+    padding: 11.8%;
+}
+
+body.night .menu-logo .menu-logo-imagen{
+    background: rgba(34, 34, 34, 0);
+}
+
+.menu-logo .menu-logo-imagen .logo{
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgb(195, 195, 195);
+    border-radius: 50%;  
+}
+
+body.night .menu-logo .menu-logo-imagen .logo{
+    background: rgba(195, 195, 195, 0);
+}
+
+.menu-logo .menu-logo-imagen .logo img{
+    width: 105%;
+    height: 105%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    font-size: 1vw;
+    color: #376dff;
+}
+
+
+.menu-logo .dec-punto-menu{
+    width: 20%;
+    height: 20%;
+    top: 0;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    background: linear-gradient(20deg,#959595,#959595);
+    border-radius: 50%;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0); 
+}
+
+
+body.night .menu-logo .dec-punto-menu{
+    background: linear-gradient(20deg,#959595,#959595);
+}
+
+
+.menu-logo .menu-logo-dec-1{
+    width: 0px;
+    height: 0px;
+    top: 50%;
+    left: 5%;
+    transform: translate(-5%,-50%);
+    padding: 3%;
+}
+
+.menu-logo .menu-logo-dec-2{
+    width: 0px;
+    height: 0px;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%,-50%);
+    padding: 1.5%;
+}
+
+.menu-logo .menu-logo-dec-3{
+    width: 0px;
+    height: 0px;
+    top: 50%;
+    left: 75%;
+    transform: translate(-75%,-50%);
+    padding: 1.5%;
+}
+
+.menu-logo .menu-logo-dec-4{
+    width: 0px;
+    height: 0px;
+    top: 50%;
+    left: 95%;
+    transform: translate(-95%,-50%);
+    padding: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-secciones-contenedor-scroll{
+    width: 100%;
+    height: 86.1%;
+	top: 0;
+	left: 0;
+	float: left;
+    overflow-y: scroll;
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0);
+    border-top: 1px solid rgba(111, 111, 111, 0.2);
+}
+
+body.night .menu-secciones-contenedor-scroll{
+    scrollbar-color: rgb(124, 42, 255) rgb(52, 52, 52);
+}
+
+
+body.night .menu-secciones-contenedor-scroll, body.p-teatro-video .menu-secciones-contenedor-scroll, body.p-cine-video .menu-secciones-contenedor-scroll{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header .menu-secciones-global{
+    width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background: rgba(232, 215, 17, 0);
+    border-bottom: 1px solid rgba(111, 111, 111, 0.2);
+}
+
+header .menu-secciones-global a{
+    width: auto;
+    height: auto;
+}
+
+body.night header .menu-secciones-global, body.p-teatro-video header .menu-secciones-global, body.p-cine-video header .menu-secciones-global{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header .menu-secciones-global .menu-secciones-contenedor{
+    width: 100%;
+    height: 2.5vw;
+    float: left;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    background: rgba(29, 196, 235, 0);
+}
+
+header .menu-secciones-global .menu-secciones-contenedor:hover{
+    background: #e1e1e1;
+}
+
+body.night header .menu-secciones-global .menu-secciones-contenedor:hover, body.p-teatro-video header .menu-secciones-global .menu-secciones-contenedor:hover, body.p-cine-video header .menu-secciones-global .menu-secciones-contenedor:hover{
+    background: #444444;
+}
+
+
+header .menu-secciones-global .menu-secciones-contenedor .menu-secciones-icono{
+    width: 20%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background: rgba(68, 68, 68, 0);
+}
+
+header .menu-secciones-global .menu-secciones-contenedor .menu-secciones-icono label{
+    width: auto;
+    height: auto;
+    float: left;
+    top: 50%;
+    left: 50%;
+    color: #868686;
+    font-size: 1.45vw;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+}
+
+
+body.night header .menu-secciones-global .menu-secciones-contenedor .menu-secciones-icono label, body.p-teatro-video header .menu-secciones-global .menu-secciones-contenedor .menu-secciones-icono label, body.p-cine-video header .menu-secciones-global .menu-secciones-contenedor .menu-secciones-icono label{
+    color: #898989;
+}
+
+header .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra{
+    width: 80%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background:rgba(255, 121, 121, 0);
+}
+
+header .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra p{
+    width: 100%;
+    height: auto;
+    float: left;
+    top: 50%;
+    left: 0%;
+    color: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    font-size: 1.05vw;
+}
+
+body.night header .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra p, body.p-teatro-video header .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra p, body.p-cine-video header .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra p{
+    color: #ffffff;
+}
+
+
+/*SECCION 5 DEL MENU DE LA IZQUIERDA*/
+
+
+header .menu-secciones-contenedor-info-extra .menu-secciones-global{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+header .menu-secciones-contenedor-info-extra .menu-secciones-global .menu-secciones-contenedor{
+    width: 100%;
+    height: 2.5vw;
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    display: inline-block;
+    background: rgba(29, 196, 235, 0);
+}
+
+
+
+header .menu-secciones-contenedor-info-extra .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra{
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background:rgba(95, 95, 95, 0);
+}
+
+header .menu-secciones-contenedor-info-extra .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra p{
+    width: 90%;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background:rgba(168, 168, 168, 0);
+    color: rgb(134, 134, 134);
+    font-size: 0.85vw;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 10%;
+    
+}
+
+body.night header .menu-secciones-contenedor-info-extra .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra p, body.p-teatro-video header .menu-secciones-contenedor-info-extra .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra p, body.p-cine-video header .menu-secciones-contenedor-info-extra .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra p{
+    color: #009dff;
+}
+
+
+
+/*TERMINA INFO-EXTRA DEL MENU DE LA IZQUIERDA*/
+
+
+.menu .menu-secciones-contenedor-scroll .menu-secciones-contenedor-footer .menu-secciones-global{
+    border-bottom: 0px solid rgba(111, 111, 111, 0.2);
+}
+
+
+.menu .menu-secciones-contenedor-scroll .menu-secciones-contenedor-footer .menu-secciones-global .menu-secciones-contenedor{
+    background: rgba(236, 236, 236, 0);
+    cursor: auto;
+}
+
+
+.menu .menu-secciones-contenedor-scroll .menu-secciones-contenedor-footer .menu-secciones-global .menu-secciones-contenedor:hover{
+    background: rgba(0, 0, 0, 0);
+}
+
+.menu .menu-secciones-contenedor-scroll .menu-secciones-contenedor-footer .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra{
+    float: right;
+}
+
+.menu .menu-secciones-contenedor-scroll .menu-secciones-contenedor-footer .menu-secciones-global .menu-secciones-contenedor .menu-secciones-palabra p{
+    width: auto;
+    right: 10%;
+    float: right;
+    text-align: right;
+    font-size: 0.75vw;
+    color: #8d8d8d;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.menu .menu-secciones-contenedor-scroll .menu-secciones-contenedor-1{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+}
+
+.menu .menu-secciones-contenedor-scroll .menu-secciones-contenedor-2{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+}
+
+.menu .menu-secciones-contenedor-scroll .menu-secciones-contenedor-3{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+}
+
+.menu .menu-secciones-contenedor-scroll .menu-secciones-contenedor-4{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+}
+
+.menu .menu-secciones-contenedor-scroll .menu-secciones-contenedor-info-extra{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+}
+
+.menu .menu-secciones-contenedor-scroll .menu-secciones-contenedor-footer{
+    width: 100%;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    margin-top: 10%;
+}
+
+
+.container-menu-cerrar{
+    width: 102%;
+    height: 102%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: fixed;
+    display: none;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0);
+    z-index 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header .logo-header{
+    width: auto;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 209, 121, 0);
+}
+
+header .logo-header .Logo-vidbit{
+    width: 3vw;
+    height: 3vw;
+    top: 50%;
+    left: 0%;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    background: rgba(158, 210, 255, 0);
+}
+
+header .logo-header .Logo-vidbit img{
+    width: 100%;
+    height: 100%;
+    font-size: 0.85vw;
+    color: #376dff;
+}
+
+header .logo-header .nombre-vidbit{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 10%;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    transform: translate(-10%,-50%);
+    background: rgba(118, 118, 118, 0);
+}
+
+header .logo-header .nombre-vidbit p{
+    width: auto;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    background: rgba(118, 118, 118, 0);
+    font-size: 1.7vw;
+    color: #262626;
+    cursor: pointer;
+    font-family: lobster1,sans-serif;
+}
+
+
+body.night header .logo-header .nombre-vidbit p, body.p-teatro-video header .logo-header .nombre-vidbit p, body.p-cine-video header .logo-header .nombre-vidbit p{
+    color: #ffffff;
+}
+
+header .logo-header .letras-region p{
+    width: auto;
+    height: auto;
+    top: 0%;
+    right: -8%;
+    float: left;
+    color: #868686;
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    text-transform: uppercase;
+    transform: translate(0%,-20%);
+    font-size: 0.6vw;
+    font-family: lobster1,sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header .header-top{
+    width: 48%;
+    height: 100%;
+    top: 0;
+    left: 22.5%;
+    z-index: 1;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-23%,0%);
+    background: rgba(39, 156, 255, 0);
+    
+}
+
+header .navegacion{
+	width: 100%;
+    height: 100%;
+    top: 50%;
+	float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(0%,-50%);
+}
+
+header .navegacion input[type="search"]{
+    width: 90%;
+    height: 55%;
+    top: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    background: rgba(255, 255, 255, 0);
+    border: 0.1px solid rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 15px;
+    
+}
+
+body.night header .navegacion input[type="search"]{
+	color: #ffffff;
+    background: #313131;
+}
+
+body.p-cine-video header .navegacion input[type="search"]{
+	color: #ffffff;
+    background: #222222;
+}
+
+body.p-teatro-video header .navegacion input[type="search"]{
+	color: #ffffff;
+    background: #222222;
+}
+
+header .navegacion input[type="search"]:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.05),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgba(0, 0, 0, 0.05));
+}
+
+header .navegacion input[type="search"]:focus{
+	border: 2px solid rgb(94, 182, 255);
+    background: linear-gradient(rgba(0, 0, 0, 0.05),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgb(251, 251, 251),rgba(0, 0, 0, 0.05));
+}
+
+
+
+
+
+
+
+
+
+
+header .navegacion .boton-buscar{
+    width: 10%;
+    height: 52%;
+    top: 50%;
+    right: 0;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.2);
+    border-top: 0.1px solid rgba(0, 0, 0, 0.2);
+    border-right: 0.1px solid rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+body.night header .navegacion .boton-buscar, body.p-teatro-video header .navegacion .boton-buscar, body.p-cine-video header .navegacion .boton-buscar{
+    background: rgb(111, 111, 111);
+}
+
+
+header .navegacion .boton-buscar label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+
+body.night header .navegacion .boton-buscar label{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+header .search{
+    width: 50%;
+    height: auto;
+    max-height: 0vh;
+    top: 7.5vh;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgb(244, 244, 244);
+}
+
+
+body.hb-mostrar header .search{
+    height: auto;
+    max-height: 60vh;
+    display: inline-block;
+    border-bottom: 1px solid rgba(111, 111, 111, 0.2);
+}
+
+
+
+body.night header .search, body.p-teatro-video header .search, body.p-cine-video header .search{
+    background:#262626; 
+}
+
+
+
+header .search ul{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0);
+    list-style: none;
+}
+
+
+header .search ul a{
+    width: auto;
+    height: auto;
+    color: #000000;
+}
+
+
+header .search ul li{
+    width: 100%;
+    height: 7.5vh;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(255, 255, 255, 0);
+    list-style: none;
+}
+
+header .search ul li p{
+    width: 90%;
+    height: auto;
+    top: 50%;
+    left: 5%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    color: #4d4d4d;
+    font-size: 14px;
+    font-family: Roboto8;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: 0.5s;
+}
+
+
+body.night header .search ul li p, body.p-teatro-video header .search ul li p, body.p-cine-video header .search ul li p{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header .header .head-menu-cuenta {
+    width: 26%;
+    height: 100%;
+    float: right;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    background: rgba(39, 156, 255, 0);
+    
+}
+
+body.night .header .head-menu-cuenta, body.p-teatro-video .header .head-menu-cuenta, body.p-cine-video .header .head-menu-cuenta{
+    background: rgba(143, 143, 143, 0); 
+    transition: 0.7s;  
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;  
+}
+
+header .header .head-menu-cuenta .head-menu-usuario{
+    width: 20%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    float: right;
+    position: relative;
+    display: inline-block;
+    background: rgba(234, 112, 112, 0);
+    margin-right: 0%;
+}
+
+header .header .head-menu-cuenta .head-menu-usuario input {
+    display: none;
+}
+
+header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-imagen{
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    display: inline-block;
+    background: rgba(195, 149, 149, 0);
+}
+
+
+
+
+header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-imagen .usuario-imagen{
+   width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(88, 88, 88, 0);
+    border-radius: 50%;
+    padding: 1.5vw;
+    z-index: 10;
+}
+
+header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-imagen .usuario-imagen img{
+    width: 108%;
+    height: 108%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    color: #000000;
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-imagen label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    color: rgb(82, 82, 82);
+    transform: translate(-50%,-50%);
+    font-size: 2vw;
+    z-index: 0;
+}
+
+header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-imagen label:hover{
+    color: #000000;
+}
+
+body.night header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-imagen label, body.p-teatro-video header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-imagen label, body.p-cine-video header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-imagen label{
+    color: #ffffff;
+}
+
+body.night header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-imagen label:hover, body.p-teatro-video header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-imagen label:hover, body.p-cine-video header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-imagen label:hover{
+    color: #333333;
+}
+
+.head-menu-cuenta .icono-usuario-contenedor-exterior-cerrar{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: none;
+    background: rgba(0, 0, 0, 0);
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-contenedor-exterior{
+    width: 20%;
+    height: 82.5%;
+    position: fixed;
+    overflow: hidden;
+    display: inline-block;
+    background: #ffffff;
+    transform: translate(200%,0%);
+    border: 1px solid rgba(163, 163, 163, 0.7);
+    transition: 0.3s;
+    z-index: 1000;
+    cursor: auto;
+}
+
+
+body.night header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-contenedor-exterior, body.p-teatro-video header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-contenedor-exterior, body.p-cine-video header .header .head-menu-cuenta .head-menu-usuario .icono-usuario-contenedor-exterior{
+    background: #333333;
+    border: 1px solid rgba(163, 163, 163, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CODIGO DE LOS MENUS LATERALES DERECHOS */ 
+
+
+header .header .head-menu-cuenta .head-menu-usuario-1 .icono-usuario-contenedor-exterior{
+    top: 8.5%;
+    right: 5%;
+}
+
+header .header .head-menu-cuenta .head-menu-usuario #toogle-menu-usuario:checked ~ .icono-usuario-contenedor-exterior-cerrar{
+    display: inline-block;
+}
+
+header .header .head-menu-cuenta .head-menu-usuario #toogle-menu-usuario:checked ~ .icono-usuario-contenedor-exterior{
+    transition: 0.2s;
+    transform: translate(0%,0%);
+    display: inline-block;
+}
+
+header .header .head-menu-cuenta .head-menu-usuario #toogle-menu-usuario:checked ~ .icono-usuario-imagen .usuario-head{
+    color: #000000;
+}
+
+body.night header .header .head-menu-cuenta .head-menu-usuario #toogle-menu-usuario:checked ~ .icono-usuario-imagen .usuario-head{
+    color: #333333;
+}
+
+
+
+
+header .header .head-menu-cuenta .head-menu-usuario-2 .icono-usuario-contenedor-exterior{
+    top: 9%;
+    right: 10%;
+}
+
+
+
+/* TERMINA CODIGO DE LOS MENUS LATERALES DERECHOS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icono-usuario-contenedor-exterior .contenedor-head-menu-cuenta{
+    width: 100%;
+    height: 25%;
+    top: 0;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+
+.icono-usuario-contenedor-exterior .contenedor-head-menu-cuenta .contenedor-imagen-banner{
+    width: 102%;
+    height: 102%;
+    top: -1%;
+    left: -1%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+}
+
+
+.icono-usuario-contenedor-exterior .contenedor-head-menu-cuenta .contenedor-imagen-banner img{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    display: inline-block;
+    object-fit: cover;
+    z-index: 0;
+}
+
+
+.contenedor-head-menu-cuenta .contenedor-imagen-banner .contenedor-imagen-banner-mensaje{
+    width: 100%;
+    height: 30%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0);
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+
+
+.contenedor-head-menu-cuenta .contenedor-imagen-banner .contenedor-imagen-banner-mensaje p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-40%);
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.7vw/*1.1vw*/;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+.head-menu-cuenta .menu-secciones-contenedor-scroll{
+    width: 100%;
+    height: 75%;
+	top: 0;
+	left: 0;
+	float: left;
+    overflow-y: scroll;
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pantalla-cover-search{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    float: left;
+    z-index: 1000;
+    position: fixed;
+    display: none;
+}
+
+body.hb-mostrar .pantalla-cover-search{
+    display: inline-block;
+    background: rgba(78, 78, 78, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------*/
+/*
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+*/
+/* ----------------------------------------------------*/
+/* TODO LO DE LOS PERFILES EN GENERAL EN VidBit Y SUS DERIVADOS*/
+
+/* ---------------- CORRESPONDE AL MENU DE LOS PERFILES ---------------- */
+
+#suscribirse{
+    
+}
+
+#notificar{
+    
+}
+
+.boton-suscribirse p::before{
+    content: 'Suscribirse';
+    display: inline-block;
+}
+
+.boton-suscribirse p::after{
+    content: 'Suscrito';
+    display: none;
+}
+
+.nombre-canal-testimonio p::before{
+    content: 'Testimónio';
+}
+
+.caja-inicio p::before{
+    content: 'Inicio'
+}
+
+.caja-videos p::before{
+    content: 'Videos'
+}
+
+.caja-videos-realizados p::before{
+    content: 'Todos los Videos'
+}
+
+.caja-canales p::before{
+    content: 'Canales'
+}
+
+.caja-canales-siguiendo p::before{
+    content: 'Todos los Canales en VidBit'
+}
+
+.caja-testimonios p::before{
+    content: 'Testimónios'
+}
+
+.caja-testimonios-Todos p::before{
+    content: 'Testimónios de'
+}
+
+.caja-listas p::before{
+    content: 'Listas'
+}
+
+.caja-listas-todas p::before{
+    content: 'Todas las Listas de Reproducción'
+}
+
+.caja-descripcion p::before{
+    content: 'Descripción'
+}
+
+.caja-descripcion-palabra p::before{
+    content: 'Descripción del Canal'
+}
+
+
+
+
+
+/* ---------------- CORRESPONDE A LAS LISTAS DE LOS PERFILES ---------------- */
+
+
+
+
+
+.panel-lista-targeta .icon-dot-3:hover::after{
+    content: 'Opciones';
+}
+
+.panel-lista-targeta .icon-user-circle-o:hover::after{
+    content: 'ID Lista';
+}
+
+.panel-lista-targeta .icon-forward-1:hover::after{
+    content: 'Compartir';
+}
+
+.panel-lista-targeta .icon-play:hover::after{
+    content: 'Reproducir';
+}
+
+
+
+
+
+
+
+
+
+
+.opciones-targeta-lista-perfil .palabra-opciones p::before{
+    content: 'Opciones'
+}
+.contenedor-iconos-opciones .palabra-opcion-1 p::before{
+    content: 'Cambiar nombre';
+}
+
+.contenedor-iconos-opciones .palabra-opcion-2 p::before{
+    content: 'Cambiar imagen';
+}
+
+.contenedor-iconos-opciones .palabra-opcion-3 p::before{
+    content: 'Eliminar lista'
+}
+.id-targeta-lista-perfil .palabra-id-de-lista p::before{
+    content: 'ID de tu Lista'
+}
+
+.url-lista-palabra p::before{
+    content: 'Copia tu url y Comparte tu lista VidBit !!'
+}
+
+.cont-compartir-targeta-lista-perfil .aviso-recargar-lista p::before{
+    content: 'Recargar si no funciona!';
+}
+
+.icons-redes .slide-iconos .swiper-wrapper .icon-twitter-1:hover::after{
+    content: 'Twitter';
+}
+
+.icons-redes .slide-iconos .swiper-wrapper .icon-facebook-circled:hover::after{
+    content: 'Facebook';
+}
+
+.icons-redes .slide-iconos .swiper-wrapper .icon-pinterest-1:hover::after{
+    content: 'Pinterest';
+}
+
+.icons-redes .slide-iconos .swiper-wrapper .icon-reddit:hover::after{
+    content: 'Reddit';
+}
+
+.icons-redes .slide-iconos .swiper-wrapper .icon-linkedin-1:hover::after{
+    content: 'Linkedin';
+}
+
+.icons-redes .slide-iconos .swiper-wrapper .icon-mail:hover::after{
+    content: 'G-mail';
+}
+
+.icons-redes .slide-iconos .swiper-wrapper .icon-vkontakte:hover::after{
+    content: 'VKontakte';
+}
+
+.icons-redes .slide-iconos .swiper-wrapper .icon-weibo:hover::after{
+    content: 'Weibo';
+}
+
+.icons-redes .slide-iconos .swiper-wrapper .icon-tumblr:hover::after{
+    content: 'Tumblr';
+}
+
+#L1 .palabra-opcion-id p::before{
+    content: 'L1';
+}
+
+#L2 .palabra-opcion-id p::before{
+    content: 'L2';
+}
+
+#L3 .palabra-opcion-id p::before{
+    content: 'L3';
+}
+
+#L4 .palabra-opcion-id p::before{
+    content: 'L4';
+}
+
+#L5 .palabra-opcion-id p::before{
+    content: 'L5';
+}
+
+#L6 .palabra-opcion-id p::before{
+    content: 'L6';
+}
+
+#L7 .palabra-opcion-id p::before{
+    content: 'L7';
+}
+
+#L8 .palabra-opcion-id p::before{
+    content: 'L8';
+}
+
+#L9 .palabra-opcion-id p::before{
+    content: 'L9';
+}
+
+#L10 .palabra-opcion-id p::before{
+    content: 'L10';
+}
+
+#L11 .palabra-opcion-id p::before{
+    content: 'L11';
+}
+
+#L12 .palabra-opcion-id p::before{
+    content: 'L12';
+}
+
+#L13 .palabra-opcion-id p::before{
+    content: 'L13';
+}
+
+#L14 .palabra-opcion-id p::before{
+    content: 'L14';
+}
+
+#L15 .palabra-opcion-id p::before{
+    content: 'L15';
+}
+
+#L16 .palabra-opcion-id p::before{
+    content: 'L16';
+}
+
+#L17 .palabra-opcion-id p::before{
+    content: 'L17';
+}
+
+#L18 .palabra-opcion-id p::before{
+    content: 'L18';
+}
+
+#L19 .palabra-opcion-id p::before{
+    content: 'L19';
+}
+
+#L20 .palabra-opcion-id p::before{
+    content: 'L20';
+}
+
+
+
+
+
+
+/* ---------------- CORRESPONDE A LA DESCRIPCION DE LOS PERFILE ---------------- */
+
+
+
+
+
+.Palabra-Descripcion p::before{
+    content: 'Descripcion';
+}
+.Palabra-Enlaces p::before{
+    content: 'Enlaces';
+}
+.Palabra-Vistas-tema p::before{
+    content: 'Vistas totales de tus videos';
+}
+.numero-contenido-vistas-caja-6 p::before{
+    content: '0000000';
+}
+.Palabra-Vistas p::before{
+    content: 'Vistas';
+}
+.Palabra-Numero-de-Videos p::before{
+    content: 'Numero-de-Videos';
+}
+
+#perfil-00 .numero-de-videos p::before{
+    content: '35';
+}
+
+.Palabra-videos p::before{
+    content: 'Videos';
+}
+
+.Palabra-ID-de-tu-cuenta p::before{
+    content: 'ID de tu cuenta';
+}
+
+
+
+
+
+
+
+
+
+/* PERTENECE A LA PARTE DE LOS VIDEOS */
+
+
+
+
+
+/* ---------------- CORRESPONDE A LOS ICONOS DE LOS VIDEOS ---------------- */
+
+
+
+.iconos-videos .icon-bookmark::after{
+    
+}
+
+.iconos-videos .icon-forward-1::after{
+    
+}
+
+.iconos-videos .icon-thumbs-down-alt::after{
+    
+}
+
+.iconos-videos .icon-thumbs-up-alt::after{
+    
+}
+
+.iconos-videos .icon-dot-3:hover::after{
+    
+}
+
+
+
+/* ---------------- CORRESPONDE A LOS BOTONES ---------------- */
+
+
+
+
+.p-descripcion .p-descripcion-a p::before{
+    content: ' Mostrar Descripción ';
+}
+
+body.dsc .p-descripcion .p-descripcion-a p::before{
+    content: ' Ocultar';
+}
+
+.video-botones-contenedor-3 .boton-ocultar-y-mostrar-videos p::after{
+    content: 'Mostrar videos extras';
+}
+
+body.vid .video-botones-contenedor-3 .boton-ocultar-y-mostrar-videos p::after{
+    content: 'Ocultar';
+}
+
+
+
+
+/* ---------------- CORRESPONDE A LOS ANUNCIOS DE LOS VIDEOS ---------------- */
+
+
+
+
+.icon-help-circled-1:hover::after{
+    content: '¿Por que esto?';
+}
+
+.aviso-anuncio p::before{
+    content: 'Anunciate yá';
+}
+
+.Informacion-de-anunciarse p::before{
+    content: 'Atraves de este medio podras publicitar tu negocio de una manera facil y rapida.';
+}
+
+.derechos-reservados p::after{
+    content: '©copyright 2020.';
+}
+
+.boton-redireccion-anuncio p::before{
+    display: inline-block;
+    content: 'visitar';
+}
+
+.palabra-para-video p::before{
+    content: 'Recomendado para tí';
+}
+
+
+
+
+/* -------------- CORRESPONDE A LA AYUDA SOBRE LA SECCION DE LOS VIDEOS RELACIONADOS -------------- */
+
+
+
+.ayuda-videos-explicacion p::before{
+    content: 'Sea Bienvenido a esta sección de los videos. Aquí podras encontrar los videos directamente relacionados con el video que estas viendo y su canal correspondiente. ';
+}
+
+
+/* ---------------- CORRESPONDE A LA PALABRA ENCIMA DE LOS VIDEOS ---------------- */
+
+
+.sec-2-contenedor-palabra p::before{
+    content: 'Recomendación';
+}
+
+
+/* ---------------- CORRESPONDE A LAS PALABRA EN EL HEADER PERO EL DE LA DERECHA ---------------- */
+
+/*
+#head-menu-usuario-1 .contenedor-head-menu-cuenta .contenedor-imagen-banner .contenedor-imagen-banner-mensaje p::before{
+    content: 'Disfruta de VaidBit';
+    
+}
+*/
+
+#head-menu-usuario-2 .contenedor-head-menu-cuenta .contenedor-imagen-banner .contenedor-imagen-banner-mensaje p::before{
+    content: 'Secciones de AHENTER';
+    
+}
+
+/* ---------------- CORRESPONDE A LAS PALABRA EN EL HEADER PERO EL DE LA IZQUIERDA ---------------- */
+
+/*
+.letras-region p::before{
+    content: 'sv';
+}
+*/
+
+.nombre-seccion-ahenter p::before{
+    content: 'AHENTER';
+}
+
+.nombre-seccion-musica p::before{
+    content: 'SounD';
+}
+
+.nombre-seccion-documentos p::before{
+    content: 'DoQSit';
+}
+
+/*
+.nombre-vidbit p::before{
+    content: 'VaidBit';
+}
+*/
+
+/*
+.nombre-seccion-Home p::before{
+    content: 'Home';
+}
+*/
+
+/*
+.nombre-seccion-seciones p::before{
+    content: 'Categorias';
+}
+*/
+
+/*
+.nombre-seccion-configuracion p::before{
+    content: 'Configuración';
+}
+*/
+
+/*
+.nombre-seccion-manual p::before{
+    content: 'Manual VidBit';
+}
+*/
+
+/*
+.nombre-seccion-contactanos p::before{
+    content: 'Contactanos';
+}
+*/
+
+/*
+.nombre-seccion-novedades p::before{
+    content: 'Novedades';
+}
+*/
+
+/*
+.nombre-seccion-futuros-proyectos p::before{
+    content: 'Futuros Proyectos';
+}
+*/
+
+/*
+.nombre-seccion-publicitate p::before{
+    content: 'Publicítate ahora';
+}
+*/
+
+/*
+.quienes-somos p::before{
+    content: 'Quienes Somos?';
+}
+*/
+
+/*
+.preguntas-frecuentes p::before{
+    content: 'Preguntas Frecuentes';
+}
+*/
+
+/*
+.derechos-de-autor p::before{
+    content: 'Derechos de Autor';
+}
+*/
+
+/*
+.politica-de-uso p::before{
+    content: 'Politica de Uso';
+}
+*/
+
+/*
+.politica-de-seguridad p::before{
+    content: 'Politica de Seguridad';
+}
+*/
+
+/*
+.derecho-reservado p::before{
+    content: '©VaidBit 2020.';
+}
+*/
+
+/*
+.nombre-seccion-tu-canal p::before{
+    content: 'Tu Canal';
+}
+*/
+
+/*
+.nombre-seccion-manual-usuario p::before{
+    content: 'Manual de Usuario';
+}
+*/
+
+/*
+.nombre-seccion-tus-testimonios p::before{
+    content: 'Tus Testimonios';
+}
+*/
+
+/*
+.nombre-seccion-ubicacion p::before{
+    content: 'Región de Plataforma';
+}
+*/
+
+/*
+.nombre-seccion-idiomas p::before{
+    content: 'Idiomas';
+}
+*/
+
+/*
+.nombre-seccion-tipo-de-letra p::before{
+    content: 'Tipo de Letra';
+}
+*/
+
+/*
+.nombre-seccion-cambiar-tema-color p::before{
+    content: 'Cambiar color';
+}
+*/
+
+
+    
+
+
+/* ----------------------------------------------------*/
+/*
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| INICIA CODIGO DEL BOTON DE SUSCRIPCION  
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+.contenedor-boton-suscribir-en-perfil{
+    width: 140px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0);
+    float: right;
+    margin-top: 15px;
+    margin-right: 2%;
+}
+
+
+.boton-suscribirse{
+    background: #c72424;
+    color: #fff;
+    font-size: 15px;
+    padding: 9px 19px;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor-boton-suscribir-en-perfil input[type="checkbox"]{
+    display: none;
+}
+
+/*CUANDO ESTE EN CHECKED CAMBIARA DE COLOR EL BOTON desaparecera la palabra "Suscribete" {before} y aparecera la palabra "Suscrito" {after}*/
+
+.click-en-suscripcion:checked ~ .boton-suscribirse{
+    color: #626262;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0), rgb(121, 121, 121));
+    animation: brillo-boton 0.15s linear;
+    text-shadow: 0px 0px 4px #ffffff;
+}
+
+body.night .click-en-suscripcion:checked ~ .boton-suscribirse{
+    color: #ffffff;
+    text-shadow: 0px 0px 4px #0089ff;
+}
+
+@keyframes brillo-boton{
+    10%{background: linear-gradient(to right bottom, rgba(255, 255, 255, 0), rgb(134, 134, 134))}
+    50%{background: linear-gradient(to right bottom, rgb(173, 173, 173), rgba(255, 255, 255, 0), rgb(134, 134, 134))}
+    100%{background: linear-gradient(to right bottom, rgb(173, 173, 173), rgba(255, 255, 255, 0))}
+}
+
+
+.click-en-suscripcion:checked ~ .boton-suscribirse p::before{
+    display: none;
+}
+
+.click-en-suscripcion:checked ~ .boton-suscribirse p::after{
+    display: block;
+}
+
+/*CUANDO ESTE EN CHECKED APARECERA EL ICONO Y TE AVISARA QUE LO ACTIVES */
+
+.click-en-suscripcion:checked ~ .icon-bell{
+    color: #585858;
+    cursor: pointer;
+    display: inline-block;
+    animation: pendiente-activar 1s infinite  linear alternate;
+    
+}
+
+body.night .click-en-suscripcion:checked ~ .icon-bell{
+    color: #ffffff;
+}
+
+@keyframes pendiente-activar{
+    from{transform: rotate(30deg)}
+    to{transform: rotate(-30deg)}
+}
+
+/*CODIGO DEL ICONO */
+
+.contenedor-boton-suscribir-en-perfil .icon-bell{
+    float: right;
+    margin-top: 0px;
+    margin-right: 8px;
+    font-size: 18px;
+    display: none;
+    background: rgba(255, 255, 255, 0);
+    padding-top: 6px;
+    padding-bottom: 9px;
+    padding-left: 4.5px;
+    padding-right: 5.5px;
+    border-radius: 100%;
+    
+}
+
+/*CUANDO ESTE EN CHECKED EL ICONO DETENDRA LA ANIMACION Y CAMBIARA SU COLOR*/
+
+.campanita-click-en-suscripcion:checked ~ .icon-bell{
+    color: #ffffff;
+    background: #bfbfbf;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    padding-left: 4.5px;
+    padding-right: 5.5px;
+    border-radius: 100%;
+    animation: none;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0), rgb(134, 134, 134));
+    animation: brillo-boton 0.15s linear;
+    
+}
+
+body.night .campanita-click-en-suscripcion:checked ~ .icon-bell{
+    
+}
+
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| TERMINA CODIGO DEL BOTON DE SUSCRIPCION  
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| CODIGO DE LA ANIMACION DE TODOS LOS LADOS  
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+
+@keyframes drop-down-to-up{
+    0%{
+        transform: translate(0%,-100%);
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0%,0%)
+    }
+    90%{
+        transform: translate(0%,-8%)
+    }
+    100%{
+        transform: translate(0%,0%);
+        opacity: 1;
+    }
+}
+
+@keyframes drop-down-to-down{
+    0%{
+        transform: translate(0%,100%);
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0%,0%)
+    }
+    90%{
+        transform: translate(0%,8%)
+    }
+    100%{
+        transform: translate(0%,0%);
+        opacity: 1;
+    }
+}
+
+@keyframes drop-down-to-left{
+    0%{
+        transform: translate(-100%,0%);
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0%,0%)
+    }
+    90%{
+        transform: translate(-8%,0%)
+    }
+    100%{
+        transform: translate(0%,0%);
+        opacity: 1;
+    }
+}
+
+@keyframes drop-down-to-right{
+    0%{
+        transform: translate(100%,0%);
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0%,0%)
+    }
+    90%{
+        transform: translate(8%,0%)
+    }
+    100%{
+        transform: translate(0%,0%);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes drop-down-to-up-scale{
+    0%{
+        transform: translate(0%,-100%) scale(0.5);
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0%,0%) scale(0.7);
+    }
+    90%{
+        transform: translate(0%,-8%) scale(0.85);
+    }
+    100%{
+        transform: translate(0%,0%) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes drop-down-to-down-scale{
+    0%{
+        transform: translate(0%,100%) scale(0.5);
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0%,0%) scale(0.7)
+    }
+    90%{
+        transform: translate(0%,8%) scale(0.85)
+    }
+    100%{
+        transform: translate(0%,0%) scale(1);
+        opacity: 1;
+    }
+}
+
+
+@keyframes drop-down-to-left-scale{
+    0%{
+        transform: translate(-100%,0%) scale(0.5);
+    }
+    50%{
+        transform: translate(-50%,0%) scale(0.7);
+    }
+    90%{
+        transform: translate(-10%,0%) scale(0.85);
+    }
+    100%{
+        transform: translate(0%,0%) scale(1);
+        opacity: 1;
+    }
+}
+
+
+@keyframes drop-down-to-right-scale{
+    0%{
+        transform: translate(100%,0%) scale(0.5);
+    }
+    50%{
+        transform: translate(0%,0%) scale(0.7);
+    }
+    90%{
+        transform: translate(8%,0%) scale(0.85);
+    }
+    100%{
+        transform: translate(0%,0%) scale(1);
+        opacity: 1;
+    }
+}
+
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| TERMINA CODIGO DE LA ANIMACION DE TODOS LOS LADOS  
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| CODIGO DE BOTON DE ELIMINACION DE INPUTS VISIBLES EN LOS CONTROLES
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+
+.video-botones-contenedor-2-interno input{
+    display: none;
+}
+
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| TERMINA CODIGO DE BOTON DE ELIMINACION DE INPUTS VISIBLES EN LOS CONTROLES
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| CODIGO DEL BOTON PARA AYUDA SOBRE SECCION VIDEOS RELACIONADOS
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+
+.CONTENEDOR-SLIDE-VIDEOS #ayuda-videos-extra:checked ~ .ayuda-videos-explicacion{
+    display: inline-block;
+    opacity: 1;
+    transform: translateX(0%);
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| TERMINA CODIGO DEL BOTON PARA AYUDA SOBRE SECCION VIDEOS RELACIONADOS
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| CODIGO DE LA DECORACION CON FORMA DE CUADROS 
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+
+.decoracion-global-cuadros{
+    width: auto;
+    float: right;
+    color: #ffffff;
+    display: inline-block;
+    background: rgba(48, 175, 255, 0);
+}
+
+.decoracion-cuadros{
+    width: auto;
+    float: right;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 0%;
+    display: inline-block;
+    background: rgb(48, 175, 255);
+}
+
+.decoracion-cuadros:nth-child(1){
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 3px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 0%;
+    display: inline-block;
+    background: rgb(9, 159, 255);
+}
+
+.decoracion-cuadros:nth-child(2){
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 0%;
+    display: inline-block;
+    background: rgb(51, 175, 255);
+}
+
+.decoracion-cuadros:nth-child(3){
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 3px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 0%;
+    display: inline-block;
+    background: rgb(63, 179, 255);
+}
+
+.decoracion-cuadros:nth-child(4){
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 0%;
+    display: inline-block;
+    background: rgb(93, 191, 255);
+}
+
+.decoracion-cuadros:nth-child(5){
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 0%;
+    display: inline-block;
+    background: rgb(143, 211, 255);
+}
+
+.decoracion-cuadros:nth-child(6){
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 3px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 0%;
+    display: inline-block;
+    background: rgb(189, 229, 255);
+}
+
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| TERMINA CODIGO DE LA DECORACION CON FORMA DE CUADROS 
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| CODIGO DE EL MENU DEL HEADER 
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+
+
+
+
+
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| TERMINA CODIGO DE EL MENU DEL HEADER 
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+    
+    .boton-suscribirse{
+    font-size: 13px;
+    padding: 8px 8px;
+    border-radius: 3px;
+}
+.contenedor-boton-suscribir-en-perfil .icon-bell{
+    margin-top: 0px;
+    margin-right: 8px;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    padding-right: 6px;
+}
+}
+
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| TERMINA CODIGO DEL BOTON PARA AYUDA SOBRE SECCION VIDEOS RELACIONADOS
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+
+
+
+
+
+
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| CODIGO GLOBAL PARA OCULTAR O MOSTRAR
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+
+
+
+
+
+
+
+
+
+/* 
+|----------------------------------------------
+|
+|
+|
+|
+|
+| CODIGO GLOBAL PARA OCULTAR O MOSTRAR
+|
+|
+|
+|
+|
+|----------------------------------------------
+*/
+
+
+
+
+
+
+
+.nada{
+    width: auto;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(168, 168, 168, 0);
+}
+
+.nada p{
+    width: auto;
+    height: auto;
+    top: 0%;
+    left: 1%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-1%,0%);
+    background: rgba(239, 239, 239, 0);
+    margin-right: 5%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+/*TAMAÑOS DE LETRA DE << px >> - A - << vw >> 
+
+1px = 0.1vw
+2px = 0.2vw
+3px = 0.3vw
+4px = 0.4vw
+5px = 0.5vw
+6px = 
+7px = 
+8px = 0.6vw
+9px = 
+10px = 
+11px = 
+12px = 0.95vw
+13px = 1vw
+14px = 1.09vw
+15px = 1.15vw
+16px = 1.20vw
+17px = 1.25vw
+18px = 
+19px = 
+20px = 1.5vw
+21px = 1.6vw
+22px = 
+23px = 
+24px = 
+25px = 
+26px = 
+27px = 
+28px = 
+29px = 
+30px = 
+31px = 
+32px = 
+33px = 
+34px = 
+35px = 
+36px = 
+37px = 
+38px = 
+39px = 
+40px = 
+41px = 
+42px = 3.2vw
+43px = 
+44px = 
+45px = 3.4vw
+46px = 
+47px = 
+48px = 
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+

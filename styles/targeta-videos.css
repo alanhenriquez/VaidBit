@@ -1,0 +1,745 @@
+
+
+
+
+
+
+
+
+
+.ctvideo{
+    width: 24%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(60, 60, 60, 0);
+    margin-top: 0vw;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 1.8vw;
+    border-radius: 0px;
+    box-shadow: 5px 5px 7px rgba(38, 38, 38, 0/*0.3*/);
+}
+
+.ctvideo:nth-child(4n + 2){
+    margin-left: 1.35%;
+    margin-right: 0.65%;
+}
+
+.ctvideo:nth-child(4n + 3){
+    margin-left: 0.65%;
+    margin-right: 1.35%;
+}
+
+
+body.night .ctvideo{
+    background: rgba(60, 60, 60, 0);
+    box-shadow: 5px 5px 7px rgba(38, 38, 38, 0);
+}
+
+
+
+
+/*CODIGO DEL CONTENEDOR DE LA IMAGEN DE LA TARGETA DEL VIDEO*/
+
+.ctvideo .ctivideo{
+    width: 100%;
+    height: 11vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(70, 70, 70, 0);
+}
+
+.ctvideo .ctivideo .set-imagen{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(70, 70, 70, 0);
+}
+
+.ctvideo .ctivideo .set-imagen .cseti-ajuste{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(70, 70, 70, 0);
+    border-radius: 0.2vw;
+}
+
+.ctvideo .ctivideo .set-imagen .cseti-ajuste img{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: #e2e2e2;
+    object-fit: cover;
+}
+
+
+
+.ctvideo .ctivideo .set-tiempo{
+    width: auto;
+    height: 15%;
+    right: 3%;
+    bottom: 5.5%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.7);
+    padding-left: 3%;
+    padding-right: 3%;
+    z-index: 1;
+}
+
+.ctvideo .ctivideo .set-tiempo .csett-ajuste{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.ctvideo .ctivideo .set-tiempo .csett-ajuste p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    font-size: 0.89vw;
+    text-align: center;
+}
+
+/*TERMINA CODIGO DEL CONTENEDOR DE LA IMAGEN DE LA TARGETA DEL VIDEO*/
+
+
+
+
+
+/*CODIGO DEL CONTENEDOR DE LA INFORMACION DE LA TARGETA DEL VIDEO*/
+
+.ctvideo .ctinfovideo{
+    width: 100%;
+    height: 7.5vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(55, 55, 55, 0);
+}
+
+.ctvideo .ctinfovideo .logo-y-opciones{
+    width: 30%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(74, 74, 74, 0);
+}
+
+.ctvideo .ctinfovideo .logo-y-opciones .cexterno-logo{
+    width: 100%;
+    height: 30%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(211, 211, 211, 0);
+}
+
+.ctvideo .ctinfovideo .logo-y-opciones .cexterno-logo .circular-logo{
+    width: 4.6vw;
+    height: 4.6vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: #f7f7f7;
+    border-radius: 50%;
+}
+
+body.night .ctvideo .ctinfovideo .logo-y-opciones .cexterno-logo .circular-logo{
+    background: #262626;
+}
+
+.ctvideo .ctinfovideo .logo-y-opciones .cexterno-logo .circular-logo .cinterno-logo{
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(186, 186, 186, 0);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ctvideo .ctinfovideo .logo-y-opciones .cexterno-logo .circular-logo .cinterno-logo .cl-ajuste{
+    width: 110%;
+    height: 110%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(186, 186, 186, 0);
+}
+
+.ctvideo .ctinfovideo .logo-y-opciones .cexterno-logo .circular-logo .cinterno-logo .cl-ajuste img{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(177, 177, 177, 0);
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+.ctvideo .ctinfovideo .logo-y-opciones .cexterno-iconos{
+    width: 100%;
+    height: 70%;
+    left: 0%;
+    top: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.ctvideo .ctinfovideo .logo-y-opciones .cexterno-iconos .cinterno-iconos{
+    width: 100%;
+    height: 50%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(177, 177, 177, 0);
+}
+
+.ctvideo .ctinfovideo .logo-y-opciones .cexterno-iconos .cinterno-iconos .cajuste-iconos{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(177, 177, 177, 0);
+}
+
+.ctvideo .ctinfovideo .logo-y-opciones .cexterno-iconos .cinterno-iconos .cajuste-iconos label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(235, 235, 235, 0);
+    color: #717171;
+    font-size: 1.21vw;
+    cursor: pointer;
+}
+
+.ctvideo .ctinfovideo .logo-y-opciones .cexterno-iconos .cinterno-iconos label:active{
+    transform: translate(-50%,-50%) scale(1.1);
+}
+
+body.night .ctvideo .ctinfovideo .logo-y-opciones .cexterno-iconos .cinterno-iconos label{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+.ctvideo .ctinfovideo .informacion{
+    width: 70%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    background: rgba(93, 93, 93, 0);
+}
+
+.ctvideo .ctinfovideo .informacion .ct-vnombre{
+    width: 100%;
+    height: auto;
+    max-height: 70%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(121, 121, 121, 0);
+}
+
+.ctvideo .ctinfovideo .informacion .ct-vnombre .ctint-vnombre{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(106, 106, 106, 0);
+    padding-left: 0%;
+    padding-top: 0%;
+}
+
+.ctvideo .ctinfovideo .informacion .ct-vnombre .ctint-vnombre p{
+    width: 98%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow:hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 196, 196, 0);
+    font-size: 0.89vw;
+    text-align: left;
+    padding-top: 0.75vw;
+    font-family: Roboto8;
+}
+
+body.night .ctvideo .ctinfovideo .informacion .ct-vnombre .ctint-vnombre p{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ctvideo .ctinfovideo .informacion .ct-nombre-usuario{
+    width: 100%;
+    height: 30%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(121, 121, 121, 0);
+}
+
+.ctvideo .ctinfovideo .informacion .ct-nombre-usuario .ctint-nombre-usuario{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(203, 203, 203, 0);
+}
+
+.ctvideo .ctinfovideo .informacion .ct-nombre-usuario .ctint-nombre-usuario p{
+    width: 98%;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow:hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgba(203, 203, 203, 0);
+    font-size: 0.86vw;
+    text-align: left;
+    font-family: Roboto10;
+    color: #919191;
+}
+
+/*CODIGO DEL CONTENEDOR DE LA INFORMACION DE LA TARGETA DEL VIDEO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CODIGO PARA EL FEED*/
+
+
+.feed-principal .contenedor-principal-1 .contenedor-global .ctvideo{
+    width: 23%;
+    height: 18vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(60, 60, 60, 0);
+    margin-top: 1.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1.5%;
+    border-radius: 0px;
+    box-shadow: 5px 5px 7px rgba(38, 38, 38, 0/*0.3*/);
+}
+
+
+/*TERMINA CODIGO PARA EL FEED ========== */
+
+
+
+
+
+/*CODIGO PARA LAS CATEGORIAS*/
+
+
+.categ-body-principal .ccateg-b-prin-videos .contenedor-global .ctvideo{
+    width: 23%;
+    height: 17vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(60, 60, 60, 0);
+    margin-top: 1.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1.5%;
+    border-radius: 0px;
+    box-shadow: 5px 5px 7px rgba(38, 38, 38, 0/*0.3*/);
+}
+
+.categ-body-principal .ccateg-b-prin-videos .contenedor-global .ctvideo.hide{
+    display: none;
+}
+
+.ctvideo .ctinfovideo .informacion .ct-vcategoria .ctint-vcategoria .video-icon-categ.hide{
+    display: none;
+}
+
+
+/*TERMINA CODIGO PARA LAS CATEGORIAS ========== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (orientation:portrait){
+    
+    
+    .feed-principal .contenedor-principal-1{
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 50%;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        transform: translate(-50%,0%);
+        background:rgba(232, 232, 232, 0);
+        margin-top: 0vh;
+        margin-left: 0%;
+        margin-bottom: 10vh;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+    
+    .feed-principal .contenedor-principal-1 .contenedor-global .ctvideo{
+        width: 100%;
+        height: 75vw;
+        top: 0%;
+        left: 0%;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        transform: translate(-0%,-0%);
+        background: rgba(60, 60, 60, 0);
+        margin-top: 2.5%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 2.5%;
+        border-radius: 0px;
+        box-shadow: 5px 5px 7px rgba(38, 38, 38, 0);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .ctivideo .set-tiempo p{
+        width: auto;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        overflow: hidden;
+        position: absolute;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        padding-bottom: 0%;
+        color: #ffffff;
+        font-size: 2.9vw;
+    }
+    
+    
+    .ctvideo .ctinfovideo .logo-y-opciones .cexterno-logo{
+        width: 0px;
+        height: 0px;
+        top: 0%;
+        left: 50%;
+        float: left;
+        overflow: hidden;
+        position: absolute;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        background: #fbfbfb;
+        border-radius: 100%;
+        border-width: 2.6vw;
+        border-style: solid;
+        border-color: #fbfbfb;
+        padding: 24%;
+        z-index: 10;
+    }
+    
+    
+    
+    
+    .ctvideo .ctinfovideo .logo-y-opciones .cexterno-iconos .cinterno-iconos label{
+        width: auto;
+        height: auto;
+        left: 50%;
+        top: 50%;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        background: rgba(235, 235, 235, 0);
+        color: #717171;
+        font-size: 3vw;
+        cursor: pointer;
+    }
+
+    
+    
+    .ctvideo .ctinfovideo .informacion .ct-vcategoria .ctint-vcategoria .video-icon-categ label{
+        width: auto;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        float: left;
+        position: relative;
+        display: inline-block;
+        transform: translate(-50%,-50%);
+        background: rgba(183,159,139,0);
+        font-size: 2.8vw;
+        color: rgba(106,106,106,1.00);
+    }
+    
+    
+    
+    
+    .ctvideo .ctinfovideo .informacion .ct-vnombre .ctint-vnombre p{
+        width: 93%;
+        max-height: 100%;
+        top: 50%;
+        left: 0%;
+        float: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: relative;
+        display: inline-block;
+        transform: translate(-0%,-50%);
+        background: rgba(203, 203, 203, 0);
+        font-size: 3vw;
+    }
+    
+    .ctvideo .ctinfovideo .informacion .ct-nombre-usuario .ctint-nombre-usuario p{
+        width: 93%;
+        height: 90%;
+        top: 50%;
+        left: 0%;
+        float: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: relative;
+        display: inline-block;
+        transform: translate(-0%,-50%);
+        background: rgba(203, 203, 203, 0);
+        font-size: 2.8vw;
+        color: #919191;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+.ctvideo .ctinfovideo .informacion .dec-border{
+    width: 2%;
+    height: 70%;
+    top: 50%;
+    left: 100%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-100%,-50%) rotate(0deg);
+    background: rgb(1, 160, 230);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: -1;
+}
+*/

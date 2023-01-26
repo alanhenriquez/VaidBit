@@ -1,0 +1,2182 @@
+
+
+
+.contenedor-principal-usuarios-1{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(96, 96, 96, 0);
+    margin-top: 11vh;
+    margin-bottom: 3vw;
+}
+
+
+
+
+.banner-usuario{
+    width: 96%;
+    height: auto;
+    top: 0;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(195, 195, 195, 0);
+}
+
+.banner-usuario .banner-imagen{
+    width: 100%;
+    height: 29.5vw;
+    top: 0;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgb(195, 195, 195);
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+
+.banner-usuario .banner-imagen .contenedor-imagen{
+    width: 102%;
+    height: 102%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+}
+
+.banner-usuario .banner-imagen .contenedor-imagen .cint-imagen{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+}
+
+.banner-usuario .banner-imagen .contenedor-imagen .cint-imagen img{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgb(229, 229, 229);
+    object-fit: cover;
+}
+
+.banner-usuario .banner-imagen .contenedor-imagen .contenido-hover{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+}
+
+.banner-usuario .banner-imagen .medios-sociales{
+    width: 100%;
+    height: 13%/*6vh*/;
+    left: 0%;
+    bottom: 1.0vw;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(0%,-2.5%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.banner-usuario .banner-imagen .medios-sociales .red-social{
+    width: 3.3vw;
+    height: 3.3vw;
+    top: 50%;
+    left: 0;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    background: rgba(255, 255, 255, 1);
+    margin-right: 2vw;
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 0.2vw solid rgba(137, 137, 137, 1);
+    
+}
+
+body.night .banner-usuario .banner-imagen .medios-sociales .red-social{
+    background: rgba(38, 38, 38, 1);
+}
+
+.banner-usuario .banner-imagen .medios-sociales .red-social:hover{
+    transform: translate(0%,-50%) scale(1.1);
+    background: #ffffff;
+}
+
+body.night .banner-usuario .banner-imagen .medios-sociales .red-social:hover{
+    background: rgba(38, 38, 38, 1);
+}
+
+.banner-usuario .banner-imagen .medios-sociales .red-social label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-45%);
+    background: rgba(190, 190, 190, 0);
+    color: #292929;
+    cursor: pointer;
+    font-size: 1.02vw/*14px*/;
+    text-align: center;    
+}
+
+body.night .banner-usuario .banner-imagen .medios-sociales .red-social label{
+    color: #ffffff; 
+}
+
+
+
+
+
+/*.banner-usuario .banner-imagen .medios-sociales .red-social.instagram{
+    border: 0.2vw solid rgb(255, 35, 120);
+}
+
+.banner-usuario .banner-imagen .medios-sociales .red-social.facebook{
+    border: 0.2vw solid rgb(13, 97, 255);
+}
+
+.banner-usuario .banner-imagen .medios-sociales .red-social.youtube{
+    border: 0.2vw solid rgb(255, 38, 38);
+}
+
+.banner-usuario .banner-imagen .medios-sociales .red-social.twitter{
+    border: 0.2vw solid rgb(38, 147, 255);
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner-usuario .datos-usuario{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(220, 220, 220, 0);
+}
+
+body.night .banner-usuario .datos-usuario{
+    background: rgba(103, 103, 103, 0);
+}
+
+
+
+.datos-usuario .contenedor-logo-usuario{
+    width: 100%;
+    height: 9vw;
+    left: 0%;
+    top: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(212, 212, 212, 0);
+}
+
+body.night .datos-usuario .contenedor-logo-usuario{
+    background: rgba(84, 84, 84, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-clu{
+    width: 25%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(114, 114, 114, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-clu .contenedor-externo-logo-usuario{
+    width: 0px;
+    height: 0px;
+    left: 50%;
+    top: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: #f7f7f7;
+    padding: 34%;
+    border-radius: 50%;
+    border: 0px solid #fbfbfb;
+}
+
+body.night .datos-usuario .contenedor-logo-usuario .principal-clu .contenedor-externo-logo-usuario{
+    background: #262626;
+    border: 0px solid #262626;
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-clu .contenedor-int-logo-usuario{
+    width: 90%;
+    height: 90%;
+    left: 50%;
+    top: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: #f4f4f4;
+    border-radius: 50%;
+    border: 0px solid rgb(121, 121, 121);
+}
+
+body.night .datos-usuario .contenedor-logo-usuario .principal-clu .contenedor-int-logo-usuario{
+    background: #262626;
+    border: 0px solid rgb(57, 57, 57);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-clu .contenedor-int-logo-usuario img{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: #e2e2e2;
+    object-fit: cover;
+}
+
+.detectar-actividad{
+    width: 0px;
+    height: 0px;
+    right: 5%;
+    bottom: 20%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(0%,-20%);
+    background: rgba(75, 255, 0, 1);
+    border: 0.25vw solid #fbfbfb;
+    border-radius: 50%;
+    padding: 5%;
+    z-index: 1;
+}
+
+body.night .detectar-actividad{
+    border: 0.25vw solid #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu{
+    width: 35%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(95, 95, 95, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(196, 196, 196, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario .contenedor-name-nickname{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(196, 196, 196, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario .contenedor-apodo-usuario{
+    width: 100%;
+    height: 50%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(163, 163, 163, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario .contenedor-apodo-usuario p{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    background: rgba(255, 255, 255, 0);
+    color: #000000;
+    font-size: 2.2vw;
+    text-align: left;
+    font-family: Roboto6;
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario .contenedor-nombre-usuario{
+    width: 100%;
+    height: 50%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(196, 196, 196, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario .contenedor-nombre-usuario p{
+    width: auto;
+    height: auto;
+    top: 10%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,-10%);
+    background: rgba(255, 255, 255, 0);
+    color: #000000;
+    font-size: 1.2vw;
+    text-align: center;
+    font-family: Roboto6;
+}
+
+
+
+body.night .datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario p{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.descripcion-botones{
+    width: 40%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: right;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgba(142, 142, 142, 0);
+}
+
+
+.descripcion-botones .dsbt{
+    width: 10%;
+    height: 20%;
+    top: 25%;
+    right: 5%;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-5%,-25%);
+    background: rgb(255, 255, 255);
+    border: 0.1vw solid #d0d0d0;
+    margin-left: 1%;
+    padding-top: 0%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.descripcion-botones .dsbt:active{
+    transform: translate(-5%,-25%) scale(1.04);
+}
+
+body.night .descripcion-botones .dsbt{
+    background: #434343;
+}
+
+.descripcion-botones .dsbt label, .descripcion-botones .dsbt p{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgba(230, 230, 230, 0);
+    cursor: pointer;
+    color: #262626;
+    font-size: 0.9vw;
+    text-align: center;
+}
+
+body.night .descripcion-botones .dsbt label, body.night .descripcion-botones .dsbt p{
+    color: #ffffff;
+}
+
+.descripcion-botones .dsbt p{
+    transform: translate(-0%,-50%);
+}
+
+
+
+/*CODIGO PARA EL ESTILO DEL BOTON DE FOLLOW AL ESTAR ACTIVO*/
+
+
+/*.descripcion-botones .dsbt.following{
+    background: #388cff;
+}
+
+body.night .descripcion-botones .dsbt.following{
+    background: #388cff;
+}
+
+.descripcion-botones .dsbt.following label{
+    color: #ffffff;
+}*/
+
+
+/*TERMINA CODIGO PARA EL ESTILO DEL BOTON DE FOLLOW AL ESTAR ACTIVO*/
+
+
+.descripcion-botones .dsbt .dsbt-decoracion{
+    width: 150%;
+    height: 150%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(83, 83, 83, 0);
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CODIGO DE LOS CONTADORES DE CONTENIDO DEL USUARIO*/
+
+
+.datos-usuario .contenedor-datos-usuario{
+    width: 100%;
+    height: 3vw;
+    left: 0%;
+    top: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(175, 175, 175, 0);
+}
+
+.datos-usuario .cntu{
+    width: 20%;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0);
+    margin-left: 4%;
+    border-radius: 5px;
+}
+
+.datos-usuario .cntu p{
+    width: auto;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+    color: #000;
+    font-size: 1.08vw/*14px*/;
+    text-align: center;
+    font-family: Lobster4;
+}
+
+.datos-usuario .cntu p.numero-post{
+    width: 45%;
+    color: #262626;
+    right: 5%;
+    transform: translate(-5%,-0%); 
+    text-align: right;
+    font-weight: 900;
+}
+
+.datos-usuario .cntu p.texto-post{
+    width: 55%;
+    color: #262626;
+    text-align: left;
+    font-weight: 100;
+}
+
+
+body.night .datos-usuario .cntu p{
+    color: #ffffff;
+}
+
+
+
+.datos-usuario .publicaciones-de-usuario{
+    
+}
+
+.datos-usuario .bitqius-de-usuario{
+    
+}
+
+.datos-usuario .numero-de-suscriptores{
+    
+}
+
+.datos-usuario .numero-de-seguidos{
+    
+}
+
+
+/*TERMINA CODIGO DE LOS CONTADORES DE CONTENIDO DEL USUARIO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.informacion-usuario{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(195, 195, 195, 0);
+    margin-top: 0vw;
+}
+
+
+
+
+
+/*CODIGO DEL CONTENEDOR DE LA DESCRIPCION DEL USUSARIO*/
+
+
+
+.informacion-usuario .descripcion-usuario{
+    width: 100%;
+    height: auto;
+    max-height: 14.4vw;
+    top: 0;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(201, 201, 201, 0);
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+.informacion-usuario .descripcion-usuario .texto-de-descripcion{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(106, 106, 106, 0);
+    padding-left: 0%;
+}
+
+.informacion-usuario .descripcion-usuario .texto-de-descripcion .contenido-descripcion{
+    width: 80%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(106, 106, 106, 0);
+    padding-left: 0%;
+}
+
+
+.informacion-usuario .descripcion-usuario .texto-de-descripcion .contenido-descripcion p{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow:hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+    color: #2a2a2a;
+    font-size: 1.1vw;
+    text-align: justify;
+    font-family: Roboto6;
+}
+
+body.night .informacion-usuario .descripcion-usuario .texto-de-descripcion .contenido-descripcion p{
+    color: #ffffff;
+}
+
+.informacion-usuario .descripcion-usuario .texto-de-descripcion a{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: #1ea5f8;
+}
+
+
+
+/*TERMINA CODIGO DEL CONTENEDOR DE LA DESCRIPCION DEL USUSARIO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CODIGO DEL MENU CONTENEDOR DE LOS BOTONES DEL CONTENIDO DEL USUARIO*/
+
+
+.informacion-usuario .cbmopciones{
+    width: 100%;
+    height: 5vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(106, 106, 106, 0);
+}
+
+.informacion-usuario .cbmopciones .ajustecbmopciones{
+    width: 80%;
+    height: 80%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(38, 38, 38, 0);
+    border-top: 0.1vw solid #d9d9d9;
+}
+
+.informacion-usuario .cbmopciones .cbmseccion{
+    width: 20%;
+    height: 80%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(65, 65, 65, 0);
+    border-radius: 0px;
+    margin-left: 0%;
+    cursor: pointer;
+}
+
+.informacion-usuario .cbmopciones .cbmseccion:active{
+    transform: translate(-0%,-0%) scale(1.1);
+}
+
+.informacion-usuario .cbmopciones .cbmseccion .cbm-iconos{
+    width: 15%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(239, 134, 134, 0);
+}
+
+.informacion-usuario .cbmopciones .cbmseccion .cbm-iconos label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-45%);
+    background: rgba(239, 134, 134, 0);
+    color: #262626;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+body.night .informacion-usuario .cbmopciones .cbmseccion .cbm-iconos label{
+    color: #ffffff;
+}
+
+.informacion-usuario .cbmopciones .cbmseccion .cbm-nombre{
+    width: 85%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(227, 185, 185, 0);
+}
+
+.informacion-usuario .cbmopciones .cbmseccion .cbm-nombre p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(239, 134, 134, 0);
+    color: #262626;
+    font-size: 1vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+body.night .informacion-usuario .cbmopciones .cbmseccion .cbm-nombre p{
+    color: #ffffff;
+}
+
+
+/*TERMINA CODIGO DEL MENU CONTENEDOR DE LOS BOTONES DEL CONTENIDO DEL USUARIO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CODIGO DEL CONTENEDOR DEL CONTENIDO PUBLICADO DEL USUARIO*/
+
+
+.informacion-usuario .contenido-canal{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(75, 75, 75, 0);
+    margin-top: 0vw;
+    padding-bottom: 0vw;
+}
+
+
+.informacion-usuario .contenido-slide-canal{
+    width: 500%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 132, 198, 0);
+    transition: 0s;
+}
+
+
+
+
+
+/*--SLIDE DE LAS SECCIONES, NO MODIFICAR O EL SLIDE NO FUNCIONARA*/
+/*---CODIGO DEL SLIDE DEL CONTENIDO*/
+
+.informacion-usuario .contenido-slide-canal.sb{
+    transform: translate(-20%,-0%);
+}
+
+.informacion-usuario .contenido-slide-canal.sv{
+    transform: translate(-40%,-0%);
+}
+
+.informacion-usuario .contenido-slide-canal.sl{
+    transform: translate(-60%,-0%);
+}
+
+.informacion-usuario .contenido-slide-canal.sg{
+    transform: translate(-80%,-0%);
+}
+
+/*---TERMINA CODIGO DEL SLIDE DEL CONTENIDO*/
+
+
+
+
+
+/*---CODIGO DE LA BARRA POSISION DEL SLIDE*/
+
+
+.cbmopciones .deco-signal{
+    width: 80%;
+    height: 20%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(150, 150, 150, 0);
+}
+
+.deco-signal .barra-signal{
+    width: 16%;
+    height: 25%;
+    top: 100%;
+    left: 3%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translateX(3%) translateY(-100%);
+    background: #555555;
+    transition: 0.1s;
+    border-radius: 0%;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    padding: 0vw;
+}
+
+body.night .deco-signal .barra-signal{
+    background: #ffffff;
+}
+
+.deco-signal.sb .barra-signal{
+    /*left: 31.5%;*/
+    left: 27.5%;
+    transform: translateX(-27.5%) translateY(-100%);
+}
+
+.deco-signal.sv .barra-signal{
+    /*left: 51.5%;*/
+    left: 52%;
+    transform: translateX(-52%) translateY(-100%);
+}
+
+.deco-signal.sl .barra-signal{
+    /*left: 71.5%;*/
+    left: 75.5%;
+    transform: translateX(-75.5%) translateY(-100%);
+}
+
+.deco-signal.sg .barra-signal{
+    /*left: 91.5%;*/
+    left: 100%;
+    transform: translateX(-100%) translateY(-100%);
+}
+
+/*---TERMINA CODIGO DE LA BARRA POSISION DEL SLIDE*/
+/*--TERMINA CODIGO DEL SLIDE*/
+
+
+
+
+
+
+
+
+
+
+/*--CODIGO DEL ESPACIO DE LAS PUBLICACIONES*/
+
+.informacion-usuario .contenido-canal .espacioP{
+    width: 16%;
+    height: 70vh;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(44, 44, 44, 0);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0vw;
+    transition: 0s;
+    opacity: 1;
+}
+
+
+/*Codigo de la seccion de las publicaciones
+|Para los demas codigos revisar el documento <<targeta-publicaciones.css>>
+|
+|Favor no realizar cambios para disfrutar de una mejor experiencia como internauta ;D
+|
+*/
+
+.informacion-usuario .contenido-canal .contenido-slide-canal.sp .cpublicaciones{
+    height: 70vh;
+}
+
+.informacion-usuario .contenido-canal .cpublicaciones{
+    height: auto;
+}
+
+.informacion-usuario .contenido-canal .cpublicaciones .int-publicaciones{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(75, 75, 75, 0);
+    padding-top: 0.9vw;
+}
+
+
+
+
+
+/*Codigo de la seccion de los videos
+|Para los demas codigos revisar el documento <<targeta-videos.css>>
+|
+|Favor no realizar cambios para disfrutar de una mejor experiencia como internauta ;D
+|
+*/
+
+.informacion-usuario .contenido-canal .contenido-slide-canal.sv .cvsubidos{
+    height: auto;
+}
+
+.informacion-usuario .contenido-canal .cvsubidos .int-videos{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(75, 75, 75, 0);
+    padding-top: 0.9vw;
+}
+
+
+
+
+
+/*Codigo de la seccion de las listas creadas
+|Para los demas codigos revisar el documento <<targeta-listas.css>>
+|
+|Favor no realizar cambios para disfrutar de una mejor experiencia como internauta ;D
+|
+*/
+
+.informacion-usuario .contenido-canal .contenido-slide-canal.sl .clcreadas{
+    height: auto;
+}
+
+.informacion-usuario .contenido-canal .clcreadas .int-listas{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(75, 75, 75, 0);
+    padding-top: 0.9vw;
+}
+
+
+
+
+
+/*Codigo de la seccion de los Guardados
+|Para los demas codigos revisar el documento <<targeta-guardados.css>>
+|
+|Favor no realizar cambios para disfrutar de una mejor experiencia como internauta ;D
+|
+*/
+
+.informacion-usuario .contenido-canal .contenido-slide-canal.sg .ceguardados{
+    height: auto;
+}
+
+.informacion-usuario .contenido-canal .ceguardados .int-guardados{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(75, 75, 75, 0);
+    padding-top: 0.9vw;
+}
+
+.informacion-usuario .contenido-canal .ceguardados .int-guardados .contenedor-allsaved{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(75, 75, 75, 0);
+}
+
+.informacion-usuario .contenido-canal .ceguardados .int-guardados .contenedor-allsaved , .informacion-usuario .contenido-canal .ceguardados .int-guardados .contenedor-allcolection{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(75, 75, 75, 0);
+}
+
+.informacion-usuario .contenido-canal .ceguardados .int-guardados .cnombre{
+    width: 100%;
+    height: 3vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(75, 75, 75, 0);
+}
+
+.informacion-usuario .contenido-canal .ceguardados .int-guardados .cnombre .cint-cnombre{
+    width: 70%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(75, 75, 75, 0);
+}
+
+.informacion-usuario .contenido-canal .ceguardados .int-guardados .cnombre .cint-cnombre p{
+    width: 97%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 196, 196, 0);
+    font-size: 1.1vw;
+    text-align: left;
+    font-family: Roboto8;
+    color: #262626;
+}
+
+body.night .informacion-usuario .contenido-canal .ceguardados .int-guardados .cnombre .cint-cnombre p{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+.informacion-usuario .contenido-canal .ceguardados .int-guardados .ccontenido{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(75, 75, 75, 0);
+}
+
+
+
+
+
+/*Codigo de la seccion de los Testimonios
+|Para los demas codigos revisar el documento <<targeta-testimonios.css>>
+|
+|Favor no realizar cambios para disfrutar de una mejor experiencia como internauta ;D
+|
+*/
+
+.informacion-usuario .contenido-canal .contenido-slide-canal.sb .cbitqius{
+    height: auto;
+}
+
+.informacion-usuario .contenido-canal .cbitqius .int-bitqius{
+    width: 90%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(75, 75, 75, 0);
+    padding-top: 0.9vw;
+}
+
+
+/*--TERMINA CODIGO DEL ESPACIO DE LAS PUBLICACIONES*/
+/*TERMINA CODIGO DEL CONTENEDOR DEL CONTENIDO PUBLICADO DEL USUARIO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-sections-split{
+    width: 100%;
+    height: 5vw;
+    top: 0;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(195, 195, 195, 0);
+    margin-top: 5vw;
+}
+
+.menu-sections-split .cint-mssplit{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transform: translate(-50%,0%);
+    background: rgba(255, 188, 61, 0);
+    margin-top: 0vw;
+}
+
+.menu-sections-split .cint-mssplit .sections{
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgba(195, 195, 195, 0);
+    margin-left: 1%;
+    margin-right: 1%
+}
+
+.menu-sections-split .cint-mssplit .sections .cint-sections{
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgba(195, 195, 195, 0);
+}
+
+.menu-sections-split .cint-mssplit .sections .cint-sections a{
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgba(195, 195, 195, 0);
+}
+
+.menu-sections-split .cint-mssplit .sections .cint-sections a p{
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgba(195, 195, 195, 0);
+    color: rgb(128, 128, 128);
+    font-size: 0.9vw;
+    font-family: Roboto6;
+}
+
+.menu-sections-split .cint-mssplit .sections .cint-sections a p:hover{
+    color: #18a6ff;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sample-components{
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: fixed;
+    display: none;
+    transform: translate(-0%,-0%);
+    background: rgba(0, 0, 0, 0);
+    z-index: 10000000;
+}
+
+.sample-components .csample{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/*CODIGO PARA CERRAR EL CONTENEDOR MOSTRADOR*/
+
+.sample-components .csample .contenedor-close{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+    z-index: -1;
+}
+
+/*TERMINA EL CODIGO PARA CERRAR EL CONTENEDOR MOSTRADOR*/
+
+
+
+
+
+/*CODIGO PARA EL CONTENEDOR MOSTRADOR*/
+
+.sample-components .csample .mostrador{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow-y: scroll;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.sample-components .csample .mostrador img{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    background: rgba(70, 70, 70, 0);
+    object-fit: cover;
+}
+
+/*TERMINA EL CODIGO PARA EL CONTENEDOR MOSTRADOR*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (orientation:portrait){
+    
+    
+    
+    
+    
+.contenedor-principal-usuarios-1{
+    margin-top: 7.5vh;
+}    
+    
+.banner-usuario{
+    width: 100%;
+}
+
+.banner-usuario .banner-imagen{
+    width: 100%;
+    height: 40vw;
+    border-top-left-radius: 0vw;
+    border-top-right-radius: 0vw;
+}
+
+.banner-usuario .banner-imagen .medios-sociales .red-social{
+    width: 13%;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+    transition: 0s;
+    border-radius: 1vw;
+}
+
+body.night .banner-usuario .banner-imagen .medios-sociales .red-social{
+    background: rgba(38, 38, 38, 1);
+}    
+    
+.banner-usuario .banner-imagen .medios-sociales .red-social:hover{
+    transform: translate(0%,-50%) scale(1);
+}
+
+body.night .banner-usuario .banner-imagen .medios-sociales .red-social:hover{
+    transform: translate(0%,-50%) scale(1);
+}
+
+.banner-usuario .banner-imagen .medios-sociales .red-social label{
+    font-size: 2.2vw/*14px*/;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+.banner-usuario .datos-usuario{
+    height: auto;
+    background: rgba(220, 220, 220, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario{
+    width: 100%;
+    height: 25vw;
+    left: 0%;
+    top: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(212, 212, 212, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-clu{
+    width: 34%;
+    height: 60%;
+    background: rgba(212, 212, 212, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-clu .contenedor-externo-logo-usuario{
+    padding: 43%;
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-clu .contenedor-int-logo-usuario{
+    width: 90%;
+    height: 90%;
+}
+
+.detectar-actividad{
+    bottom: 15%;
+    padding: 7%;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu{
+    width: 66%;
+    height: 60%;
+    background: rgba(95, 95, 95, 0);
+}
+    
+.datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario .contenedor-name-nickname{
+    width: 100%;
+    height: 100%;
+}    
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario .contenedor-apodo-usuario{
+    width: 100%;
+    height: 50%;
+    background: rgba(203, 177, 177, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario .contenedor-apodo-usuario p{
+    width: 90%;
+    font-size: 5vw;
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario .contenedor-nombre-usuario{
+    width: 100%;
+    height: 50%;
+    background: rgba(196, 196, 196, 0);
+}
+
+.datos-usuario .contenedor-logo-usuario .principal-cdu .cprincipal-nombre-usuario .contenedor-nombre-usuario p{
+    font-size: 2.4vw;
+}
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+.descripcion-botones{
+    width: 100%;
+    height: 30%;
+    float: left;
+    background: rgba(216, 174, 107, 0);
+}
+
+
+.descripcion-botones .dsbt{
+    width: 15.1%;
+    height: 60%;
+    margin-left: 1.1%;
+    margin-right: 1.1%;
+    padding-top: 0%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0%;
+}
+
+.descripcion-botones .dsbt:active{
+    transform: translate(-0%,-50%) scale(1);
+}
+
+.descripcion-botones .dsbt label, .descripcion-botones .dsbt p{
+    text-align: center;
+    font-size: 2.5vw;
+}   
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+/*CODIGO DE LOS CONTADORES DE CONTENIDO DEL USUARIO*/
+
+
+.datos-usuario .contenedor-datos-usuario{
+    width: 100%;
+    height: 10vw;
+    background: rgba(175, 175, 175, 0);
+}
+
+.datos-usuario .cntu{
+    width: 20%;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0);
+    margin-left: 4%;
+    border-radius: 5px;
+}
+
+.datos-usuario .cntu p{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 255, 255, 0);
+    color: #000;
+    font-size: 2.5vw/*14px*/;
+    text-align: justify-all;
+    font-family: NotoSans2;
+    font-weight: 900;
+}
+
+body.night .datos-usuario .cntu p{
+    color: #ffffff;
+}
+
+
+
+.datos-usuario .publicaciones-de-usuario{
+    
+}
+
+.datos-usuario .bitqius-de-usuario{
+    
+}
+
+.datos-usuario .numero-de-suscriptores{
+    
+}
+
+.datos-usuario .numero-de-seguidos{
+    
+}
+
+
+/*TERMINA CODIGO DE LOS CONTADORES DE CONTENIDO DEL USUARIO*/
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+/*CODIGO DEL CONTENEDOR DE LA DESCRIPCION DEL USUSARIO*/
+
+
+
+.informacion-usuario .descripcion-usuario{
+    width: 100%;
+    min-height: 11.5vw;
+    height: auto;
+    top: 0;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(201, 201, 201, 0);
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.informacion-usuario .descripcion-usuario .texto-de-descripcion .contenido-descripcion{
+    width: 92%;
+}
+
+
+.informacion-usuario .descripcion-usuario .texto-de-descripcion .contenido-descripcion p{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 255, 255, 0);
+    font-size: 2.5vw;
+}
+
+
+
+/*TERMINA CODIGO DEL CONTENEDOR DE LA DESCRIPCION DEL USUSARIO*/
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+/*CODIGO DEL MENU CONTENEDOR DE LOS BOTONES DEL CONTENIDO DEL USUARIO*/
+
+
+.informacion-usuario .cbmopciones{
+    width: 100%;
+    height: auto;
+    background: rgba(193, 193, 193, 0);
+}
+
+.informacion-usuario .cbmopciones .ajustecbmopciones{
+    width: 100%;
+    height: 10vw;
+    top: 0%;
+    left: 50%;
+    border-bottom: 0.1vw solid #d9d9d9;
+}
+
+.informacion-usuario .cbmopciones .cbmseccion{
+    width: 20%;
+    height: 100%;
+}
+
+.informacion-usuario .cbmopciones .cbmseccion:active{
+    transform: translate(-0%,-0%) scale(1);
+}
+
+.informacion-usuario .cbmopciones .cbmseccion .cbm-iconos{
+    width: 99%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    background: rgba(239, 134, 134, 0);
+}
+
+.informacion-usuario .cbmopciones .cbmseccion .cbm-iconos label{
+    color: #262626;
+    font-size: 3vw;
+    cursor: pointer;
+}
+    
+    /*#388cff*/
+
+.informacion-usuario .cbmopciones .cbmseccion .cbm-nombre{
+    display: none;
+}
+
+
+
+/*TERMINA CODIGO DEL MENU CONTENEDOR DE LOS BOTONES DEL CONTENIDO DEL USUARIO*/
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+/*---CODIGO DE LA BARRA POSISION DEL SLIDE*/
+
+
+.cbmopciones .deco-signal{
+    width: 100%;
+    height: 5vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(150, 150, 150, 0);
+}
+
+.deco-signal .barra-signal{
+    width: 20%;
+    height: 10%;
+    top: 100%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translateX(0%) translateY(-100%);
+    background: #555555;
+    transition: 0.1s;
+    border-radius: 0%;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    padding: 0vw;
+}
+
+body.night .deco-signal .barra-signal{
+    background: #ffffff;
+}
+
+.deco-signal.sv .barra-signal{
+    /*left: 31.5%;*/
+    left: 25%;
+    transform: translateX(-25%) translateY(-100%);
+}
+
+.deco-signal.sl .barra-signal{
+    /*left: 51.5%;*/
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+}
+
+.deco-signal.sg .barra-signal{
+    /*left: 71.5%;*/
+    left: 75%;
+    transform: translateX(-75%) translateY(-100%);
+}
+
+.deco-signal.st .barra-signal{
+    /*left: 91.5%;*/
+    left: 100%;
+    transform: translateX(-100%) translateY(-100%);
+}
+
+/*---TERMINA CODIGO DE LA BARRA POSISION DEL SLIDE*/    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+.informacion-usuario{
+    width: 100%;
+}
+    
+    
+.informacion-usuario .contenido-canal{
+    margin-top: 0%;
+}    
+    
+.informacion-usuario .contenido-canal .espacioP{
+    width: 20%;
+    padding-left: 0%;
+    padding-right: 0%;
+}    
+    
+.informacion-usuario .contenido-canal .cpublicaciones .int-publicaciones{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(75, 75, 75, 0);
+}    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1717 @@
+
+
+
+
+
+
+
+
+
+.contenedor-novedades{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(154, 154, 154, 0);
+    margin-top: 7.5vh;
+    margin-bottom: 10vw;
+    padding-top: 5vw;
+}
+
+
+
+
+/*----------------- ICONO -----------------*/
+
+
+
+
+.contenedor-novedades .header-novedades{
+    width: 100%;
+    height: 15vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: linear-gradient(-20deg,rgba(255, 0, 235, 0),rgba(0, 137, 255, 0));
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    margin-bottom: 3vw;
+}
+
+.contenedor-novedades .header-novedades .contenedor-icono{
+    width: 70%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.contenedor-novedades .header-novedades .contenedor-icono .icono{
+    width: 100%;
+    height: 30%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+}
+
+.contenedor-novedades .header-novedades .contenedor-icono .icono label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    font-size: 2.5vw;
+    color: #262626;
+}
+
+body.night .contenedor-novedades .header-novedades .contenedor-icono .icono label{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/*----------------- TEXTO -----------------*/
+
+
+
+
+.contenedor-novedades .header-novedades .contenedor-icono .texto{
+    width: 100%;
+    height: 70%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+}
+
+.contenedor-novedades .header-novedades .contenedor-icono .texto p{
+    width: auto;
+    height: auto;
+    top: 40%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-40%);
+    font-size: 2.3vw;
+    font-family: lobster1,sans-serif;
+    color: #262626;
+}
+
+body.night .contenedor-novedades .header-novedades .contenedor-icono .texto p{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------- BOTON CREAR -----------------*/
+
+
+
+
+.contenedor-novedades  .boton-crear-novedad{
+    width: 100%;
+    height: 6vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(217, 217, 217, 0);
+}
+
+.contenedor-novedades  .boton-crear-novedad .bonton{
+    width: 8%;
+    height: 40%;
+    top: 50%;
+    left: 97%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-97%,-50%);
+    background: linear-gradient(-20deg,#ffc400,#ce00ff) ;
+    border: 0.3vw solid #fff;
+    box-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.2);
+    transition: 0.1s;
+    cursor: pointer;
+    border-radius: 0.3vw;
+}
+
+.contenedor-novedades  .boton-crear-novedad .bonton:active{
+    transform: translate(-97%,-50%) scale(0.95);
+    box-shadow: 0 0 0vw rgba(0, 0, 0, 0);
+}
+
+.contenedor-novedades  .boton-crear-novedad .bonton input{
+    display: none;
+    position: absolute;
+}
+
+
+.contenedor-novedades  .boton-crear-novedad .bonton label{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(195, 195, 195, 0);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.contenedor-novedades  .boton-crear-novedad .bonton label .c-elemtos{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(195, 195, 195, 0);
+    cursor: pointer;
+}
+
+.contenedor-novedades  .boton-crear-novedad .bonton label .c-elemtos i{
+    width: auto;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(195, 195, 195, 0);
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 0%;
+}
+
+.contenedor-novedades  .boton-crear-novedad .bonton label .c-elemtos p{
+    width: auto;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-5%,-5%);
+    background: rgba(195, 195, 195, 0);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+
+/*----------------- CUERPO DE LA PAGINA -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades{
+    width: 70%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+
+
+
+/*----------------- TARGETAS -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad{
+    width: 90%;
+    height: 28vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1);
+    margin-bottom: 5vw;
+    padding-bottom: 3vw;
+    border-radius: 2.5vw;
+}
+
+body.night .contenedor-novedades .body-novedades .targeta-mensage-novedad{
+    background: #323232;
+}
+
+
+/*----------------- EMPIEZA TARGETA EN EDICION -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad.edicion{
+    width: 90%;
+    height: 28vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: fixed;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 0vw rgba(0, 0, 0, 0.1);
+    margin-bottom: 0vw;
+    padding-bottom: 3vw;
+    border-radius: 2.5vw;
+    z-index: 1;
+}
+
+
+
+
+/*----------------- TERMINA TARGETA EN EDICION -----------------*/
+
+
+
+
+/*----------------- EMPIEZA TIEMPO DE LA TARGETA -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-fecha-publicado{
+    width: 94%;
+    height: 4vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 255, 255, 0);
+    border-bottom: 0.1vw solid #bebebe;
+}
+
+
+
+
+/*----------------- EMPIEZA CONTENEDOR TIEMPO DE LA TARGETA -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-fecha-publicado .cinterno-fecha-publicado{
+    width: 96%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(183, 183, 183, 0);
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-fecha-publicado .cinterno-fecha-publicado p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgba(255, 255, 255, 0);
+    color: #414141;
+    font-size: 1.20vw;
+}
+
+body.night .contenedor-novedades .body-novedades .targeta-mensage-novedad .c-fecha-publicado .cinterno-fecha-publicado p{
+    color: #ffffff;
+}
+
+
+
+
+/*----------------- TERMINA CONTENEDOR TIEMPO DE LA TARGETA -----------------*/
+
+
+
+
+/*----------------- EMPIEZA CONTENEDOR ELIMINAR TARGETA EN EDICION -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-fecha-publicado .eliminar-targeta{
+    width: 4%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(149, 149, 149, 0);
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-fecha-publicado .eliminar-targeta label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(149, 149, 149, 0);
+    color: #7f7f7f;
+    cursor: pointer;
+}
+
+body.night .contenedor-novedades .body-novedades .targeta-mensage-novedad .c-fecha-publicado .eliminar-targeta label{
+    color: #e8e8e8;
+}
+
+
+
+
+/*----------------- TERMINA CONTENEDOR ELIMINAR TARGETA EN EDICION -----------------*/
+/*----------------- TERMINA TIEMPO DE LA TARGETA -----------------*/
+
+
+
+
+/*----------------- EMPIEZA MENSAGE DE LA TARGETA -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado{
+    width: 40%;
+    height: 90%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+}
+
+/*-- PUBLICACION SIN IMAGEN --*/
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad.publicacion-solo-texto .c-mensage-publicado{
+    width: 100%;
+    height: 85%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad.publicacion-solo-texto .c-mensage-publicado .cinterno-mensage-publicado p{
+    width: 80%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+}
+
+/*-- TERMINA PUBLICACION SIN IMAGEN --*/
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado .cinterno-mensage-publicado{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow-y: scroll;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+body.night .contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado .cinterno-mensage-publicado{
+    scrollbar-color: rgb(124, 42, 255) rgb(52, 52, 52);
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado .cinterno-mensage-publicado p{
+    width: 80%;
+    height: auto;
+    top: 0%;
+    left: 55%;
+    float: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-55%,-0%);
+    background: rgba(255, 255, 255, 0);
+    color: #494949;
+    font-size: 1.05vw;
+    text-align: left;
+    padding-top: 1.5vw;
+    padding-bottom: 2.5vw;
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado .cinterno-mensage-publicado a{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: #1ea5f8;
+}
+
+body.night .contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado .cinterno-mensage-publicado p{
+    color: #cdcdcd;
+}
+
+
+
+
+/*----------------- EMPIEZA MENSAGE DE LA TARGETA EN EDICION -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado .cinterno-mensage-publicado .relleno-de-campos{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado .cinterno-mensage-publicado .relleno-de-campos textarea{
+    max-width: 80%;
+    min-width: 80%;
+    width: 80%;
+    max-height: 93%;
+    min-height: 93%;
+    height: 93%;
+    top: 0%;
+    left: 55%;
+    float: left;
+    overflow-y: scroll transparent;
+    position: relative;
+    display: inline-block;
+    transform: translate(-55%,-0%);
+    background: rgba(255, 255, 255, 0);
+    color: #494949;
+    font-size: 1.09vw;
+    text-align: justify;
+    padding-top: 1vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1vw;
+    color: #494949;
+    font-size: 1.05vw;
+    text-align: justify;
+    /*QUITAR BORDE AUTOMATICO DEL INPUT*/
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    /*BORDE PERSONALIZADO DEL INPUT*/
+	border: 0vw solid rgb(59, 166, 255);
+}
+
+body.night .contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado .cinterno-mensage-publicado .relleno-de-campos textarea{
+    color: #ffffff;
+}
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado .cinterno-mensage-publicado .relleno-de-campos .contador-letras{
+    width: 3.5vw;
+    height: 3.5vw;
+    top: 90%;
+    left: 90%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-90%,-90%);
+    background: #494949; /*linear-gradient(-20deg,#ffa6fc,#aaffff)*/;
+    border: 0.2vw solid #fff;
+    border-radius: 50%;
+    padding: 0%;
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado .cinterno-mensage-publicado .relleno-de-campos .contador-letras .cint-contador-letras{
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+    padding-top: 35%;
+    padding-bottom: 0%;
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-mensage-publicado .cinterno-mensage-publicado .relleno-de-campos .contador-letras .cint-contador-letras p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(201, 201, 201, 0);
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.09vw;
+}
+
+
+
+
+/*----------------- TERMINA MENSAGE DE LA TARGETA EN EDICION -----------------*/
+/*----------------- TERMINA MENSAGE DE LA TARGETA -----------------*/
+
+
+
+
+/*----------------- EMPIEZA MULTIMEDIA DE LA TARGETA -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado{
+    width: 60%;
+    height: 90%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(206, 206, 206, 0);
+}
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .video-imagen{
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(195, 195, 195, 0);
+    border-radius: 0.5vw;
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .video-imagen img{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+    object-fit: cover;
+}
+
+
+
+
+/*-- PUBLICACION SIN TEXTO --*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad.publicacion-solo-imagen .c-multimedia-publicado{
+    width: 100%;
+    height: 90%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(206, 206, 206, 0);
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad.publicacion-solo-imagen .c-multimedia-publicado .cinterno-multimedia-publicado{
+    width: 70%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+
+
+
+/*-- TERMINA PUBLICACION SIN TEXTO --*/
+/*----------------- EMPIEZA MULTIMEDIA DE LA TARGETA EN EDICION -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+}
+
+
+
+
+/*----------------- EMPIEZA CONTENEDOR PARA LA URL -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url{
+    width: 70%;
+    height: 22.5%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 220, 220, 0);
+    padding-top: 0%;
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .input-imagen{
+    width: 70%;
+    height: 40%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgb(240, 240, 240);
+}
+
+body.night .contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .input-imagen{
+    background: #262626;
+}
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .input-imagen .contenedor-texto{
+    width: 88%;
+    height: 100%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgba(106, 106, 106, 0);
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .input-imagen .contenedor-texto input{
+    width: 90%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(73, 73, 73, 0);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    font-size: 1.05vw;
+    color: #262626;
+    /*QUITAR BORDE AUTOMATICO DEL INPUT*/
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    /*BORDE PERSONALIZADO DEL INPUT*/
+}
+
+body.night .contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .input-imagen .contenedor-texto input{
+    color: #ffffff;
+}
+
+
+
+
+/*----------------- EMPIEZA CONTENEDOR PARA BORRAR LA URL -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .input-imagen .contenedor-borrar-texto{
+    width: 12%;
+    height: 100%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgba(149, 149, 149, 0);
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .input-imagen .contenedor-borrar-texto:active > label{
+    transform: translate(-50%,-50%) scale(0.95);
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .input-imagen .contenedor-borrar-texto label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(149, 149, 149, 0);
+    color: #7f7f7f;
+    cursor: pointer;
+}
+
+body.night .contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .input-imagen .contenedor-borrar-texto label{
+    color: #e8e8e8;
+}
+
+
+
+
+/*----------------- TERMINA CONTENEDOR PARA BORRAR LA URL -----------------*/
+/*----------------- TERMINA CONTENEDOR PARA LA URL -----------------*/
+
+
+
+
+/*----------------- EMPIEZA CONTENEDOR PARA ENVIAR LA URL -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .enviar-imagen{
+    width: 30%;
+    height: 40%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgb(86, 170, 255);
+    cursor: pointer;
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .enviar-imagen:active > p{
+    transform: translate(-50%,-50%) scale(0.95);
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .set-imagen-url .enviar-imagen p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+/*----------------- TERMINA CONTENEDOR PARA ENVIAR LA URL -----------------*/
+
+
+
+
+/*----------------- EMPIEZA CONTENEDOR PARA MOSTRAR LA IMAGEN -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .mostrar-imagen{
+    width: 100%;
+    height: 55%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(186, 186, 186, 0);
+}
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .mostrar-imagen img{
+    width: 70%;
+    height: 100%;
+    top: 50%;
+    left: 50.5%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50.5%,-50%);
+    background: rgba(255, 255, 255, 0);
+    object-fit: cover;
+}
+
+
+
+/*----------------- TERMINA CONTENEDOR PARA MOSTRAR LA IMAGEN -----------------*/
+
+
+
+
+/*----------------- EMPIEZA CONTENEDOR PARA REALIZAR PUBLICACION -----------------*/
+
+
+
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .realizar-publicacion{
+    width: 100%;
+    height: 22.5%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 220, 220, 0);
+    padding-top: 0%;
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .realizar-publicacion .boton{
+    width: 20%;
+    height: 40%;
+    top: 70%;
+    left: 95%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-95%,-70%);
+    background: rgb(255, 177, 0);
+    border-radius: 0.5vw;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .realizar-publicacion .boton:active{
+    transform: translate(-95%,-70%) scale(0.95);
+    background: rgb(221, 153, 0);
+}
+
+.contenedor-novedades .body-novedades .targeta-mensage-novedad .c-multimedia-publicado .cinterno-multimedia-publicado .relleno-de-campos .realizar-publicacion .boton p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 177, 0, 0);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+
+/*----------------- TERMINA CONTENEDOR PARA REALIZAR PUBLICACION -----------------*/
+/*----------------- TERMINA MULTIMEDIA DE LA TARGETA EN EDICION -----------------*/
+/*----------------- TERMINA MULTIMEDIA DE LA TARGETA -----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SISTEMA DE EDITAR*/
+
+.editar{
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: fixed;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgb(251, 251, 251);
+    z-index: 1000000;
+}
+
+.editar .head-editar{
+    width: 100%;
+    height: 7.5vh;
+    top: 0;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 7px rgba(111, 111, 111, 0);
+    border-bottom: 0px solid rgb(111, 111, 111, 0.2);
+}
+
+.editar .head-editar .cint-head-editar{
+    width: 5%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 157, 0, 0);
+    cursor: pointer;
+}
+
+.editar .head-editar .cint-head-editar label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 157, 0, 0);
+    padding-top: 3%;
+    color: #6a6a6a;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.editar .body-editar{
+    width: 100%;
+    height: 92.5vh;
+    top: 0;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 7px rgba(111, 111, 111, 0);
+    border-bottom: 0px solid rgb(111, 111, 111, 0.2);
+}
+
+.editar .body-editar .body-editar-slide{
+    width: 98%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    float: left;
+    overflow: auto;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 7px rgba(111, 111, 111, 0);
+    border-bottom: 0px solid rgb(111, 111, 111, 0.2);
+}
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen{
+    width: 100%;
+    height: 50vw;
+    top: 0;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background: rgba(173, 173, 173, 0);
+}
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen{
+    width: 70%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgb(173, 173, 173);
+}
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .mostrar-imagen{
+    width: 70%;
+    height: 25vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgb(255, 255, 255);
+    margin-top: 5%;
+}
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .mostrar-imagen img{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 230, 230, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .input-imagen{
+    width: 70%;
+    height: 3vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgb(255, 255, 255);
+    margin-top: 3%;
+}
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .input-imagen .contenedor-texto{
+    width: 85%;
+    height: 100%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgb(244, 244, 244);
+}
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .input-imagen .contenedor-texto input{
+    width: 90%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(73, 73, 73, 0);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    font-size: 1.05vw;
+    color: #262626;
+    /*QUITAR BORDE AUTOMATICO DEL INPUT*/
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    /*BORDE PERSONALIZADO DEL INPUT*/
+}
+
+
+
+
+
+
+
+
+
+
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .input-imagen .contenedor-borrar-texto{
+    width: 5%;
+    height: 100%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgba(244, 244, 244, 1);
+}
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .input-imagen .contenedor-borrar-texto label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(149, 149, 149, 0);
+    color: #7f7f7f;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .input-imagen .enviar-imagen{
+    width: 10%;
+    height: 100%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgb(86, 170, 255);
+    cursor: pointer;
+    border-top-right-radius: 0vw;
+    border-bottom-right-radius: 0vw;
+}
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .input-imagen .enviar-imagen p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(86, 170, 255, 0);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .realizar-publicacion{
+    width: 70%;
+    height: 3vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgb(255, 255, 255);
+    margin-top: 3%;
+}
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .realizar-publicacion .boton{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgb(86, 170, 255);
+}
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-imagen .programacion-imagen .realizar-publicacion .boton p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(86, 170, 255, 0);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.editar .body-editar .body-editar-slide .contenedor-slide-ajuste-texto{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background: rgb(255, 206, 206);
+}
+
+
+
+
+
+
+

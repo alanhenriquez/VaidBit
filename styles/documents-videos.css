@@ -1,0 +1,75 @@
+
+
+
+
+
+
+.contenedor-videos-documento{
+    width: 85%;
+    height: auto;
+    top: 0;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(96,96,96,0.00);
+    margin-top: 7.5vh;
+    margin-bottom: 10vw;
+    padding-top: 5vw;
+}
+
+
+.reproduction-container {
+  display: inline-block;
+  width: 65%;
+  float: left;
+}
+
+.reproduction-container .reproduction-body {
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  background: #fff;
+  margin-bottom: 2px;
+  position: relative;
+  cursor: pointer;
+}
+
+.reproduction-container .reproduction-body .time-globe {
+  position: absolute;
+  top: -25px;
+  left: 0;
+  transform: translateX(-50%);
+  font-size: 10px;
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 4px;
+  display: none;
+}
+
+.reproduction-container .reproduction-body .reproduction-played {
+  height: 4px;
+  background: #000;
+  width: 0;
+}
+
+.reproduction-container .reproduction-body .circle-indicator {
+  position: absolute;
+  top: 0;
+  margin-top: -6px;
+  left: 0;
+  transform: translateX(-50%);
+  display: inline-block;
+  background: #bb0101;
+  border-radius: 100%;
+  border: 1px solid #000;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+
+
+

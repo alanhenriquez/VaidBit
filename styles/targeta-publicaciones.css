@@ -1,0 +1,888 @@
+
+
+
+
+
+.feed-post .ctposts{
+    /*width: 30.03%;*/
+    width: 90%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    justify-content: space-around;
+    align-content: space-around;
+    transform: translate(-0%,0%);
+    background: rgb(255, 255, 255);
+    margin-left: 1.55%;
+    margin-right: 1.55%;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+    border: 0.1vw solid rgba(78, 78, 78, 0.3);
+    border-radius: 0.2vw;
+}
+
+body.night .feed-post .ctposts{
+    background: rgb(20, 22, 26);
+}
+
+
+.userhome-post .ctposts{
+    width: 31%;
+    height: 24.471vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgb(255, 255, 255);
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0vw;
+    margin-bottom: 2.8vw;
+    border: 0vw solid rgba(78, 78, 78, 0.3);
+    border-radius: 0.2vw;
+}
+
+.userhome-post .ctposts:nth-child(3n + 2){
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+body.night .userhome-post .ctposts{
+    background: rgb(20, 22, 26);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CODIGO DE LA INFO DEL USUARIO*/
+
+.feed-post .ctposts .ctinfo-usuario{
+    width: 100%;
+    height: 5vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+
+.userhome-post .ctposts .ctinfo-usuario{
+    width: 100%;
+    height: 5vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: none;
+    transform: translate(0%,0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+body.night .ctposts .ctinfo-usuario{
+    background: rgba(20, 22, 26, 0);
+}
+
+.ctposts .ctinfo-usuario .info-usuario{
+    width: 90%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(217, 217, 217, 0);
+}
+
+.ctposts .ctinfo-usuario .info-usuario .contenedor-imagen{
+    width: auto;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(186, 186, 186, 0);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.ctposts .ctinfo-usuario .info-usuario .contenedor-imagen .circular-imagen{
+    width: 3vw;
+    height: 3vw;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(186, 186, 186, 0);
+    border-radius: 50%;
+}
+
+.ctposts .ctinfo-usuario .info-usuario .contenedor-imagen .circular-imagen .int-circular{
+    width: 103%;
+    height: 103%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(186, 186, 186, 0);
+    cursor: pointer;
+}
+
+.ctposts .ctinfo-usuario .info-usuario .contenedor-imagen .circular-imagen .int-circular img{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(177, 177, 177, 0);
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+.ctposts .ctinfo-usuario .info-usuario .nombre-usuario{
+    width: 75%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(186, 186, 186, 0);
+}
+
+.ctposts .ctinfo-usuario .info-usuario .nombre-usuario .cint-nombre{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(186, 186, 186, 0);
+}
+
+.ctposts .ctinfo-usuario .info-usuario .nombre-usuario .cint-nombre p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    background: rgba(186, 186, 186, 0);
+    font-size: 1.1vw;
+    color: #262626;
+    text-align: left;
+    cursor: pointer;
+}
+
+body.night .ctposts .ctinfo-usuario .info-usuario .nombre-usuario .cint-nombre p{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.ctposts .ctinfo-usuario .info-opciones{
+    width: auto;
+    height: 100%;
+    top: 0%;
+    right: 2%;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(217, 217, 217, 0);
+}
+
+.ctposts .ctinfo-usuario .info-opciones .cint-opciones{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(217, 217, 217, 0);
+}
+
+.ctposts .ctinfo-usuario .info-opciones .cint-opciones label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(217, 217, 217, 0);
+    color: #262626;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+body.night .ctposts .ctinfo-usuario .info-opciones .cint-opciones label{
+    color: #fff;
+}
+
+/*TERMINA CODIGO DE LA INFO DEL USUARIO*/
+
+
+
+
+
+/*CODIGO DEL CONTENEDOR DE LA IMAGEN Y DEMAS ELEMENTOS*/
+
+.feed-post .ctposts .ctipost{
+    width: 97%;
+    height: 30vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(177, 177, 177, 0);
+}
+
+
+.userhome-post .ctposts .ctipost{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(177, 177, 177, 0);
+}
+
+
+
+
+
+
+
+
+
+
+.ctposts .ctipost .imagen-post{
+    width: 102%;
+    height: 102%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: #b1b1b1;
+}
+
+.ctposts .ctipost .imagen-post img{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(177, 177, 177, 0);
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+.feed-post .ctposts .ctipost .info-preview{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+    transform: translate(0%,0%);
+    background: rgba(0, 0, 0, 0);
+}
+
+.userhome-post .ctposts .ctipost .info-preview{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+    transform: translate(0%,0%);
+    background: rgba(0, 0, 0, 0);
+}
+
+.userhome-post .ctposts:hover > .ctipost .info-preview{
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.31);
+}
+
+
+
+
+
+
+
+
+
+
+.ctposts .ctipost .info-preview .info-reactions{
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    background: rgba(157, 157, 157, 0);
+}
+
+.ctposts .ctipost .info-preview .info-reactions .reaction-icon{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(121, 121, 121, 0);
+}
+
+.ctposts .ctipost .info-preview .info-reactions .reaction-icon label{
+    width: auto;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    color: rgba(255, 255, 255, 1);
+    font-size: 2vw;
+}
+
+.ctposts .ctipost .info-preview .info-reactions .reaction-numero{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(190, 190, 190, 0);
+}
+
+.ctposts .ctipost .info-preview .info-reactions .reaction-numero p{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.2vw;
+}
+
+
+
+
+
+.ctposts .ctipost .info-preview .info-coments{
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,-50%);
+    background: rgba(157, 157, 157, 0);
+}
+
+.ctposts .ctipost .info-preview .info-coments .coments-icon{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(121, 121, 121, 0);
+}
+
+.ctposts .ctipost .info-preview .info-coments .coments-icon label{
+    width: auto;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    color: rgba(255, 255, 255, 1);
+    font-size: 2vw;
+}
+
+.ctposts .ctipost .info-preview .info-coments .coments-numero{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(190, 190, 190, 0);
+}
+
+.ctposts .ctipost .info-preview .info-coments .coments-numero p{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.2vw;
+}
+
+/*TERMINA CODIGO DEL CONTENEDOR DE LA IMAGEN Y DEMAS ELEMENTOS*/
+
+
+
+
+
+/*CODIGO DEL CONTENEDOR DE ACCIONES DEL POST*/
+
+.feed-post .ctposts .ctactionpost{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(177, 177, 177, 0);
+}
+
+.userhome-post .ctposts .ctactionpost{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: none;
+    transform: translate(0%,0%);
+    background: rgba(177, 177, 177, 0);
+}
+
+
+
+
+
+
+
+
+
+
+.ctposts .ctactionpost .cicons-post{
+    width: 100%;
+    height: 4vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(177, 177, 177, 0);
+}
+
+.ctposts .ctactionpost .action-post{
+    width: 90%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgba(177, 177, 177, 0);
+}
+
+.ctposts .ctactionpost .action-post .cbaction{
+    width: 10%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgba(142, 142, 142, 0);
+}
+
+.ctposts .ctactionpost .action-post .cbaction .cint-boton{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgba(103, 103, 103, 0);
+}
+
+.ctposts .ctactionpost .action-post .cbaction .cint-boton label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(103, 103, 103, 0);
+    font-size: 1.5vw;
+    color: #262626;
+    cursor: pointer;
+}
+
+body.night .ctposts .ctactionpost .action-post .cbaction .cint-boton label{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.ctposts .ctactionpost .guardar-post{
+    width: 10%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgba(177, 177, 177, 0);
+}
+
+.ctposts .ctactionpost .guardar-post .cbguardar{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgba(142, 142, 142, 0);
+}
+
+.ctposts .ctactionpost .guardar-post .cbguardar .cint-guardar{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,0%);
+    background: rgba(103, 103, 103, 0);
+}
+
+.ctposts .ctactionpost .guardar-post .cbguardar .cint-guardar label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(103, 103, 103, 0);
+    font-size: 1.5vw;
+    color: #262626;
+    cursor: pointer;
+}
+
+body.night .ctposts .ctactionpost .guardar-post .cbguardar .cint-guardar label{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+.ctposts .ctactionpost .cdataicon-post{
+    width: 100%;
+    height: 4vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(177, 177, 177, 0);
+}
+
+.ctposts .ctactionpost .cdataicon-post .cdataboton{
+    width: 33.33%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(177, 177, 177, 0);
+}
+
+.ctposts .ctactionpost .cdataicon-post .cdataboton .cintdataboton{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(177, 177, 177, 0);
+}
+
+.ctposts .ctactionpost .cdataicon-post .cdataboton .cintdataboton p{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+    color: #000;
+    font-size: 1.08vw/*14px*/;
+}
+
+body.night .ctposts .ctactionpost .cdataicon-post .cdataboton .cintdataboton p{
+    color: #ffffff;
+}
+
+
+/*TERMINA CODIGO DEL CONTENEDOR DE ACCIONES DEL POST*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (orientation:portrait){
+    
+    
+    
+    
+    
+.userhome-post .ctposts{
+    width: 32.93%;
+    height: 31.689vw;
+    top: 0%;
+    left: 0%;
+    margin-left: 0.15%;
+    margin-right: 0.15%;
+    margin-top: 0.15vw;
+    margin-bottom: 0.15vw;
+}
+    
+.ctposts .ctipost .info-preview .info-reactions .reaction-icon label{
+    font-size: 4vw;
+}
+    
+.ctposts .ctipost .info-preview .info-reactions .reaction-numero p{
+    font-size: 2.2vw;
+}    
+    
+.ctposts .ctipost .info-preview .info-coments .coments-icon label{
+    font-size: 4vw;
+}
+    
+.ctposts .ctipost .info-preview .info-coments .coments-numero p{
+    font-size: 2.2vw;
+}
+
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

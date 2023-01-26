@@ -1,0 +1,858 @@
+
+
+
+
+
+
+
+
+
+.ctbitqius{ 
+    width: 63%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 255, 255, 1);
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    border: 0.1vw solid rgb(217, 217, 217);
+    border-radius: 0.5vw;
+    margin-bottom: 1.25vw;
+}
+
+body.night .ctbitqius{
+    border: 0.1vw solid rgb(75, 75, 75);
+    background: rgb(56, 56, 56);
+}
+
+.ctbitqius .cint-tbitqius{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+/*CODIGO PARA LA IMAGEN DEL USUARIO*/
+
+.ctbitqius .cint-tbitqius .contenedor-toda-imagen{
+    width: 10%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(226, 226, 226, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-imagen .contenedor-imagen-usuario{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(226, 226, 226, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-imagen .contenedor-imagen-usuario .cint-imagen-usuario{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-imagen .contenedor-imagen-usuario .cint-imagen-usuario .ccircle{
+    width: 4.5vw;
+    height: 4.5vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgb(177, 177, 177);
+    border-radius: 50%;
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-imagen .contenedor-imagen-usuario .cint-imagen-usuario .ccircle .ajuste-imagen{
+    width: 102%;
+    height: 102%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(177, 177, 177, 0);
+    cursor: pointer;
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-imagen .contenedor-imagen-usuario .cint-imagen-usuario .ccircle .ajuste-imagen img{
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: #b1b1b1;
+    object-fit: cover;
+}
+
+/*TERMINA CODIGO PARA LA IMAGEN DEL USUARIO*/
+
+
+
+
+
+/*CODIGO PARA LOS DATOS DEL USUARIO*/
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info{
+    width: 87.5%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(226, 226, 226, 0);
+    padding-left: 2.5%;
+}
+
+
+
+
+/*--CODIGO PARA EL NOMBRE, APODO, FECHA Y BOTON OPCIONES DE PUBLICACION*/
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario{
+    width: 100%;
+    height: 2.5vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(217, 213, 204, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(217, 213, 204, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-1{
+    width: auto;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(217, 213, 204, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-1 .cespacio-datos{
+    width: auto;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(163, 163, 163, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-1 .cespacio-datos .ajuste-texto{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(163, 163, 163, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-1 .cespacio-datos .ajuste-texto p{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow:hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgba(255, 196, 196, 0);
+    font-size: 1.2vw;
+    text-align: left;
+    font-family: Roboto8;
+    padding-right: 0.2vw;
+    cursor: pointer;
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-1 .cespacio-datos.punto-separador .ajuste-texto p , .ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-1 .cespacio-datos.fecha-published .ajuste-texto p{
+    cursor: auto;
+}
+
+body.night .ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-1 .cespacio-datos .ajuste-texto p{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-2{
+    width: auto;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(217, 213, 204, 0);
+}
+
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-2 .cespacio-datos{
+    width: auto;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(163, 163, 163, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-2 .cespacio-datos .ajuste-texto{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(163, 163, 163, 0);
+}
+
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-2 .cespacio-datos .ajuste-texto p{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow:hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-50%);
+    background: rgba(255, 196, 196, 0);
+    font-size: 1vw;
+    text-align: left;
+    font-family: Roboto10;
+    color: #808080;
+    padding-left: 0.3vw;
+    cursor: auto;
+}
+
+body.night .ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-2 .cespacio-datos .ajuste-texto p{
+    
+}
+
+
+
+
+
+
+
+
+
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-3{
+    width: 5%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(178, 173, 160, 0);
+}
+
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-3 .cespacio-datos{
+    width: 2vw;
+    height: 2vw;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(163, 163, 163, 0);
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-3 .cespacio-datos:active > .ajuste-texto label{
+    transform: translate(-50%,-50%) scale(1.1);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-3 .cespacio-datos .ajuste-texto{
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(163, 163, 163, 0);
+}
+
+
+.ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-3 .cespacio-datos .ajuste-texto label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow:hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 196, 196, 0);
+    font-size: 1vw;
+    cursor: pointer;
+    color: #000000;
+}
+
+body.night .ctbitqius .cint-tbitqius .contenedor-toda-info .contenedor-datos-usuario .cint-datos .cont-3 .cespacio-datos .ajuste-texto label{
+    color: #d4d1d1;
+}
+
+/*--TERMINA CODIGO PARA EL NOMBRE, APODO, FECHA Y BOTON OPCIONES DE PUBLICACION*/
+
+
+
+
+
+/*--CODIGO PARA EL CONTENIDO DE LA PUBLICACION*/
+
+.ctbitqius .cint-tbitqius .contenedor-contenido{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(169, 203, 196, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-texto{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(169, 203, 196, 0);
+    margin-bottom: 1vw;
+}
+
+.ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-texto .cint-texto{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(169, 203, 196, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-texto .cint-texto .ajuste-texto{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(169, 203, 196, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-texto .cint-texto .ajuste-texto p{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow:hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 196, 196, 0);
+    font-size: 1.1vw;
+    text-align: left;
+    font-family: Roboto10;
+}
+
+body.night .ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-texto .cint-texto .ajuste-texto p{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+.ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-imagen{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(169, 203, 196, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-imagen .cint-imagen{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(169, 203, 196, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-imagen .cint-imagen{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(169, 203, 196, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-imagen .cint-imagen .publicacion-imagen{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255, 125, 56, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-imagen .cint-imagen .publicacion-imagen .ajuste-imagen{
+    width: auto;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: #b1b1b1;
+    border-radius: 1vw;
+    border: 0.1vw solid rgb(217, 217, 217);
+}
+
+body.night .ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-imagen .cint-imagen .publicacion-imagen .ajuste-imagen{
+    border: 0.1vw solid rgba(75, 75, 75 ,1);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-contenido .cint-contenido .contenedor-imagen .cint-imagen .publicacion-imagen .ajuste-imagen img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 30vw;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(177, 177, 177, 0);
+    object-fit: cover;
+}
+
+/*--TERMINA CODIGO PARA EL CONTENIDO DE LA PUBLICACION*/
+
+
+
+
+
+/*--CODIGO PARA LOS BOTONES DE LA PUBLICACION*/
+
+.ctbitqius .cint-tbitqius .contenedor-iconos{
+    width: 100%;
+    height: 3vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(199, 189, 206, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 123, 214, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono{
+    width: 20%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(255, 227, 165, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(147, 234, 255, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-icon{
+    width: 22%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(232, 175, 68, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-numero{
+    width: 78%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: rgba(232, 175, 68, 0);
+}
+
+.ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-icon label{
+    width: auto;
+    height: auto;
+    top: 100%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-100%);
+    background: rgba(235, 235, 235, 0);
+    color: #262626;
+    font-size: 1.21vw;
+    cursor: pointer;
+}
+
+.ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-icon label:active{
+    transform: translate(-0%,-100%) scale(1.1);
+    color: #000000;
+}
+
+body.night .ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-icon label{
+    color: #d4d4d4;
+}
+
+.ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-icon.liked label{
+    color: #ff1e5a;
+}
+
+.ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-icon.liked ~ .ajuste-numero p{
+    color: #ff6a91;
+}
+
+body.night .ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-icon.liked label, body.night .ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-icon.liked ~ .ajuste-numero p{
+    color: #ff1e5a;
+}
+
+body.night .ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-icon.liked ~ .ajuste-numero p{
+    color: #ffa9c0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-numero p{
+    width: 92%;
+    height: auto;
+    top: 100%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-100%);
+    background: rgba(235, 235, 235, 0);
+    color: #262626;
+    font-size: 1.11vw;
+    cursor: pointer;
+    padding-left: 8%;
+}
+
+body.night .ctbitqius .cint-tbitqius .contenedor-iconos .cint-iconos .cboton-icono .cint-cboton .ajuste-numero p{
+    color: #d4d4d4;
+}
+
+
+
+/*--TERMINA CODIGO PARA LOS BOTONES DE LA PUBLICACION*/
+/*TERMINA CODIGO PARA LOS DATOS DEL USUARIO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (orientation:portrait){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

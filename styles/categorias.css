@@ -1,0 +1,511 @@
+
+
+
+
+
+
+
+
+
+
+.contenedor-categorias{
+    width: 85%;
+    height: auto;
+    top: 0;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(96,96,96,0.00);
+    margin-top: 7.5vh;
+    margin-bottom: 10vw;
+    padding-top: 5vw;
+}
+
+
+.contenedor-categorias .header-categorias{
+    width: 100%;
+    height: 15vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+    background: linear-gradient(-20deg,rgba(255, 0, 235, 0),rgba(0, 137, 255, 0));
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    margin-bottom: 3vw;
+}
+
+.contenedor-categorias .header-categorias .contenedor-icono{
+    width: 70%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0);
+}
+
+.contenedor-categorias .header-categorias .contenedor-icono .icono{
+    width: 100%;
+    height: 30%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+}
+
+.contenedor-categorias .header-categorias .contenedor-icono .icono label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    font-size: 2.5vw;
+    color: #262626;
+}
+
+body.night .contenedor-categorias .header-categorias .contenedor-icono .icono label{
+    color: rgb(255, 255, 255);
+}
+
+.contenedor-categorias .header-categorias .contenedor-icono .texto{
+    width: 100%;
+    height: 70%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+}
+
+
+.contenedor-categorias .header-categorias .contenedor-icono .texto p{
+    width: auto;
+    height: auto;
+    top: 40%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-40%);
+    font-size: 2.3vw;
+    font-family: lobster1,sans-serif;
+    color: #262626;
+}
+
+body.night .contenedor-categorias .header-categorias .contenedor-icono .texto p{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.categ-body{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(226,123,125,0);
+    margin-top: 0vh;
+    margin-bottom: 3vw;
+    border-bottom: 0px solid #d9d9d9;
+}
+
+.categ-body .categ-icons-espace{
+	width: 100%;
+	height: 9vw;
+	padding-top: 1vw;
+}
+
+.categ-icons-espace .ajuste-space{
+    width: 6.66%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(178,39,41,0);
+    margin-bottom: 0vh;
+}
+
+.categ-icons-espace .ajuste-space .categ-tageta{
+    width: 70%;
+    height: 70%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgb(244, 244, 244);
+    border: 1px solid #dbdbdb;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+body.night .categ-icons-espace .ajuste-space .categ-tageta{
+    background: #222222;
+    border: 1px solid #a7a7a7;
+}
+
+/*EFECTO BRILLO EN CONTENEDOR*/
+
+.categ-icons-espace .ajuste-space .categ-tageta::after{
+    content: '';
+    width: 100%;
+    height: 202%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(200%,-50%);
+    background: linear-gradient(120deg,rgba(255, 255, 255, 0),rgb(255, 255, 255),rgba(255, 206, 0, 0)) ;
+    border: 0px solid rgba(193, 16, 16, 0);
+    margin-left: 0%;
+    margin-right: 0%;
+    border-radius: 5px;
+    transition: 0.8s;
+	filter: blur(1vw);
+    z-index: -1;
+}
+
+body.night .categ-icons-espace .ajuste-space .categ-tageta::after{
+    background: linear-gradient(120deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgb(255, 255, 255),rgba(255, 255, 255, 0),rgba(255, 206, 0, 0)) ;
+}
+
+.categ-icons-espace .ajuste-space .categ-tageta::before{
+    content: '';
+    width: 100%;
+    height: 102%;
+    top: 50%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-200%,-50%);
+    background: linear-gradient(120deg,rgba(255, 255, 255, 0),rgb(255, 255, 255),rgba(255, 206, 0, 0)) ;
+    border: 0px solid rgba(193, 132, 16, 0);
+    margin-left: 0%;
+    margin-right: 0%;
+    border-radius: 5px;
+    transition: 0.6s;
+	filter: blur(1vw);
+    z-index: -1;
+}
+
+body.night .categ-icons-espace .ajuste-space .categ-tageta::before{
+    background: linear-gradient(120deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgb(255, 255, 255),rgba(255, 255, 255, 0),rgba(255, 206, 0, 0)) ;
+}
+
+.categ-icons-espace .ajuste-space .categ-tageta:hover::after, .categ-body .ajuste-space .categ-tageta:active::after{
+    transform: translate(-200%,-50%);
+}
+
+.categ-icons-espace .ajuste-space .categ-tageta:hover::before, .categ-body .ajuste-space .categ-tageta:active::before{
+    transform: translate(200%,-50%);
+}
+
+/*TERMINA EFECTO BRILLO EN CONTENEDOR*/
+
+.categ-icons-espace .ajuste-space .categ-tageta:hover{
+    transform: translate(-50%,-0%) scale(1.05);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.categ-icons-espace .ajuste-space .categ-tageta:active{
+    transform: translate(-50%,-0%) scale(1.03);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.categ-icons-espace .ajuste-space .categ-tageta .categ-icon{
+    width: 102%;
+    height: 100%;
+    top: 50%;
+    left: 51%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-51%,-50%);
+    background: rgba(232, 13, 13, 0);
+	
+}
+
+.categ-icons-espace .ajuste-space .categ-tageta .categ-icon label{
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(152, 152, 152, 0);
+    color: #515151;
+    font-size: 1.8vw;
+    cursor: pointer;
+	z-index: -10;
+}
+
+body.night .categ-icons-espace .ajuste-space .categ-tageta .categ-icon label{
+    color: #d4d4d4;
+}
+
+
+
+
+
+
+.categ-icons-espace .ajuste-space .categ-indicador{
+    width: 70%;
+    height: 30%;
+    top: 0%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-0%);
+    background: rgba(255,255,255,0.00);
+}
+
+.categ-indicador .categ-circulo{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-0%,-0%);
+}
+
+.categ-indicador .categ-circulo .circulo{
+    display: none;
+}
+
+.categ-indicador .categ-circulo .circulo.active{
+    width: 0.6vw;
+    height: 0.6vw;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+	background: #009AFF;
+	border-radius: 50%;
+}
+
+.categ-indicador .categ-circulo .circulo.active1{
+    width: 0.6vw;
+    height: 0.6vw;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+	background: #EF00FF;
+	border-radius: 50%;
+}
+
+.categ-indicador .categ-circulo .circulo.active::after{
+	content: '';
+    width: 0.3vw;
+    height: 0.3vw;
+    top: 50%;
+    left: 50%;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%) scale(1);
+	background: radial-gradient(#009AFF,rgba(0,154,255,0));
+    border: 0px solid rgba(193, 132, 16, 0);
+	border-radius: 50%;
+	animation: aumentar-reducir 2s ease-in-out infinite alternate;
+	z-index: 1;
+}
+
+@keyframes aumentar-reducir{
+	
+	0%{
+		transform: translate(-50%,-50%) scale(1);
+	}
+	100%{
+		transform: translate(-50%,-50%) scale(3.5);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.categ-body .set-nombre-seleccion{
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(165, 165, 165, 0);
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+
+.set-nombre-seleccion .ajustar-centro{
+    width: 70%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(136, 136, 136, 0);
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+
+
+.set-nombre-seleccion .ajustar-centro p{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background: rgba(136, 136, 136, 0);
+    font-family: lobster1,sans-serif;
+    color: #8d8d8d;
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+body.night .set-nombre-seleccion .ajustar-centro p{
+    color: #acacac;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.categ-body-principal{
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    top: 0;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(0%,0%);
+    background: rgba(78, 78, 78, 0);
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+}
+
+
+.categ-body-principal .ccateg-b-prin-videos{
+	width: 90%;
+    height: auto;
+    top: 0;
+    left: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%,0%);
+    background: rgba(157,119,120,0);
+}
+
+
+
+
+
+
+
+
+
